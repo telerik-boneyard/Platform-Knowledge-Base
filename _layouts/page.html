@@ -1,0 +1,59 @@
+---
+layout: index
+---
+
+<main>
+    <nav>
+        <div class="nav__head nav__head--no-desc">
+            <a href="{{site.baseurl}}">
+              <i class="fa fa-question-circle"></i>
+              <span>{{site.productTagName}}</span>
+              <span><!-- {{site.productName}} --></span>
+            </a>
+        </div>
+
+        <div class="nav__tree"></div>
+        <script>
+            $(".nav__tree").kendoTreeView({
+                dataSource: {
+                    transport: {
+                        read: {
+                            url: "{{site.baseurl}}/{{page.category}}.json",
+                            dataType: "json"
+                        }
+                    },
+                    schema: {
+                        model: {
+                            id: "path",
+                            children: "items",
+                            hasChildren: "items"
+                        }
+                    }
+                },
+                select: preventParentSelection,
+                template: navigationTemplate("{{site.baseurl}}/"),
+                dataBound: expandNavigation("{{page.url | remove_first: '/' }}")
+            });
+        </script>
+    </nav>
+
+    <div class="content">
+        <div class="content__head">
+            <div>
+                {% if page.title %}
+                <h1>{{ page.title }}</h1>
+                {% endif %}
+
+                <div class="content__path">
+                    {% breadcrumb %}
+                </div>
+            </div>
+        </div>
+
+        <div class="content__article">
+            <article class="article--general">
+                {{ content }}
+            </article>
+        </div>
+    </div>
+</main>
