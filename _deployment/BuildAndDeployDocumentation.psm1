@@ -135,8 +135,8 @@ function New-Documentation {
 
     $version = Get-VersionString $buildNumber
 
-    Publish-Documentation -version $version -targetLocation $targetLocation -environment $environment -repositoryName $repositoryName -workspace $workspace`
-        -clientId $clientId -clientSecret $clientSecret -deploymentApiUrl $deploymentApiUrl -repositoryUrl $repositoryUrl -tokenEndpoint $tokenEndpoint -uploadTimeout $uploadTimeout
+    Publish-Documentation -version $version -targetLocation $targetLocation -environment $environment -repositoryName $repositoryName -workspace $workspace `
+     -clientId $clientId -clientSecret $clientSecret -deploymentApiUrl $deploymentApiUrl -repositoryUrl $repositoryUrl -tokenEndpoint $tokenEndpoint -uploadTimeout $uploadTimeout
 }
 
 function Get-VersionString {
