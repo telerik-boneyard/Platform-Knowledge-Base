@@ -54,7 +54,8 @@ publish,
 simulator,
 typescript,
 verified-plugins,
-version-control
+version-control,
+references
 
 
 ## Backend Services
@@ -100,3 +101,6 @@ instrumentation,
 java,
 javascript,
 silverlight
+
+## Telerik Products
+devcraft
