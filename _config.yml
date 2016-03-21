@@ -30,6 +30,78 @@ defaults:
 # Aliases available in the markdown template. The below will expand {{site.foo}} to Bar in the output
 # "foo": "Bar"
 
+# Telerik products and trademarks
+ab: "AppBuilder"
+tab: "Telerik AppBuilder"
+bs: "Backend Services"
+tbs: "Telerik Backend Services"
+am: "AppManager"
+tam: "Telerik AppManager"
+eq: "Analytics"
+teq: "Telerik Analytics"
+af: "Feedback"
+taf: "Telerik Feedback"
+tp: "Telerik Platform"
+sb: "Screen Builder"
+ns: "NativeScript"
+vpm: "Verified Plugins Marketplace"
+tvpm: "Telerik Verified Plugins Marketplace"
+tjc: "Telerik JustCode"
+kui: "Kendo UI"
+tkui: "Telerik Kendo UI"
+
+# Telerik UI services
+ab-s: "Code"
+sb-s: "Views"
+bs-d: "Data"
+bs-u: "Users"
+bs-n: "Notifications"
+bs-bl: "Business Logic"
+eq-s: "Analytics"
+af-s: "Feedback"
+
+# Telerik components
+dc: "data connector"
+dcs: "data connectors"
+dct: "Data Connectors"
+dls: "Data Link Server"
+
+# Telerik Platform Companion Apps
+ab-app: "AppBuilder companion app"
+ns-app: "NativeScript companion app"
+tp-app: "Telerik Platform companion app"
+
+# 3rd party products and trademarks
+ac: "Apache Cordova"
+wp: "Windows Phone"
+wp8: "Windows Phone 8"
+wp81: "Windows Phone 8.1"
+wp-store: "Windows Phone Store"
+ios-store: "App Store"
+android-store: "Google Play"
+
+# Plugins 
+# We will add plugin vars there as soon as we refer to a plugin in a KB article.
+
+# Other
+# Style note: Use a human-readable variable name.
+# Ex. good: EverliveURLSecure: https://api.everlive.com/v1
+# Ex. bad: ELS: https://api.everlive.com/v1
+app-id: "your-app-id"
+master-key: "your-master-key"
+
+# Version variables
+rsvp-v: "3.0.17"
+underscore-v: "1.8.2"
+
+# Flow control variables
+# Use similar variables in conditional statements to prevent
+# a piece of text from appearing in a specific output.
+# Set to "yes" and then:
+# Use {% if site.cac == "yes" %}{% endif %} to mark CAC-specific content.
+# Use {% if site.cac != "yes" %}{% endif %} to mark content that does not apply to CAC.
+# cac: "yes"
+
 # The google services configuration
 google_tag_manager: GTM-6X92
 google_custom_search: '001595215763381649090:imofn4yts_s'
