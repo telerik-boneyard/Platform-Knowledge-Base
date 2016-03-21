@@ -1,26 +1,72 @@
 ---
 title: [Character Limit: 255, Recommendation is to have <= 75 characters for a title as this can impact indexing by search engines like Google, Bing, etc. The article title should be a combination of the main problem statement and if applicable, the key environment statement. Also determines the title in the table of contents.]
-description: [Brief description of the How-To article]
-type: [HowTo]
-page_title: [Text that will populate the HTML file’s head:title attribute]
+description: [Character Limit: 255, Recommended length: <= 155 characters. The description is what search engines usually show in the search results. Typically, search engines truncate the description after the 155th character. The description should be a brief overview of the how-to article. It should exclude unnecessary phrases like "This article contains ..."]
+type: how-to
+page_title: [Text that will populate the HTML file’s head:title attribute. It is good to use different than the title name here, in order to cover more key words and be more discoverable via searches.]
 slug: [Unique identifier of the article. Used for cross-referencing. Ex: how-to-write-an-essay-nativescript]
-position: [Integer specifying the display position of the article in the navigation. If omitted, the articles are ordered alphabetically based on file name]
-tags: [Relevant keywords. Currently not used but always fill in for future proofness]
-<!-- TO DO: Do we we need the below fields for How-To articles? -->
-teampulseid: [number]
-ticketid: [number]
-pitsid: [number] <!-- Not sure we need this, as pits item are related to teampulse anyway -->
+position: [Keep this field blank for now!!! Integer specifying the display position of the article in the navigation. If omitted, the articles are ordered alphabetically based on file name]
+tags: [Relevant keywords. A list of the available KB tags is available in the tags.md file under _templates. Separate multiple tags with commas. Currently not used but always fill in for future proofness.]
+teampulseid: [A number, representing the TeamPulse ID of the issue\question. Leave this blank if the issue\question doesn't exist as an item in TeamPulse]
+ticketid: [A number, representing the ticket ID associated with this issue\question. The field can contain more than one ticket IDs (e.g. several clients have reported it). In such cases, we separate the ticket IDs with commas. Leave this blank if the issue\question is not related to a support case]
+pitsid: [A number, representing the public issue tracker ID associated with the issue\question. Leave this blank for now as PITS is not developed yet]
 
 ---
-
-<!-- Environment Table -->
-<!-- TO DO:
-     We need to check how such can be developed according to our needs:
- 	 We don't need Header roll, but rather a title: Environment. -->
-| Service:     | [AppBuilder], [Backend Services], [AppManager] |
-| Other stuff: | [Other stuff here]                             |
-
-
+                    
+## Environment
+<table>
+  <tr>
+    <td>Service</td>
+    <td>Code, Views, Distribution, Data, Users, Notifications, Business Logic, Analytics, Feedback, Samples, Telerik Platform General, third-party product</td>	
+  </tr>
+  <tr>
+    <td>Feature</td>
+    <td>[specify explicitly]</td>	
+  </tr>
+  <tr>
+    <td>Plugin(s)</td>
+    <td>[specify explicitly]</td>	
+  </tr>
+  <tr>
+    <td>Mobile development type</td>
+    <td>Hybrid (Cordova app), Native (NativeScript app)</td>	
+  </tr>
+  <tr>
+    <td>Code (AppBuilder) client</td>
+    <td>In-Browser, Extension for Visual Studio, Universal Desktop, Windows, Command-line interface, Sublime Text</td>	
+  </tr>
+  <tr>
+    <td>Mobile OS</td>
+    <td>iOS, Android, Windows Phone 8</td>	
+  </tr>
+  <tr>
+    <td>Mobile OS version</td>
+    <td>[specify explicitly]</td>	
+  </tr>  
+  <tr>
+    <td>Backend Services area</td>
+    <td>JavaScript SDK (Hybrid app), JavaScript SDK (Web app), JavaScript SDK (Cloud Code), .NET SDK (Web app), Native iOS app, Native Android app, Native Windows Phone app</td>	
+  </tr>
+  <tr>
+    <td>Cordova\NativeScript framework version</td>
+    <td>[specify explicitly]</td>	
+  </tr>
+  <tr>
+    <td>Browser</td>
+    <td>[specify explicitly]</td>	
+  </tr>
+  <tr>
+    <td>Browser version</td>
+    <td>[specify explicitly]</td>	
+  </tr>
+  <tr>
+    <td>.NET framework version</td>
+    <td>[specify explicitly]</td>	
+  </tr>
+  <tr>
+    <td>Visual Studio version</td>
+    <td>[specify explicitly]</td>	
+  </tr>
+</table>
 
 ## Description
 <!-- Mandatory -->
