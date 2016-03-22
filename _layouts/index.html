@@ -5,7 +5,7 @@
         {% if page.description %}<meta name="description" content="{{page.description}}">{% endif %}
         <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
 
-        <title>{{ page.page_title || page.title }}</title>
+        <title>{{page.page_title or page.title}} | {% if page.type %}{{ page.type | capitalize_all }}{% else %}Knowledge Base{% endif %} | Telerik Platform</title>
         <link rel="shortcut icon" href="{{site.baseurl}}/favicon.ico"/>
 
         <link href="http://cdn.kendostatic.com/2014.2.716/styles/kendo.common.min.css" rel="stylesheet" />
@@ -32,4 +32,3 @@
         {% include footer.html %}
     </body>
 </html>
-
