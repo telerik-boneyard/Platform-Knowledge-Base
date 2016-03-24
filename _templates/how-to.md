@@ -78,14 +78,23 @@ State the question.
 
 ## Solution
 <!-- Mandatory -->
-Answer the question, using bullets, numbered steps or something else. The solution is used when we are sure that certain steps cover\solve the whole issue and they follow the best approach we are aware of for that purpose. If no clean resolution is available we must insert the introductory sentence which states that there is no solution and then, have at least one **Possible Workaround** below.
+Answer the question, using bullets, numbered steps or something else. The solution is used when we are sure that certain steps cover\solve the whole issue and they follow the best approach we are aware of for that purpose. If no clean resolution is available we must use the following include:
 
-E.g.: There is no clean solution for [this]. Please check the suggested workaround(s) below for further assistance.
+{% include /_troubleshooting/no-solution-available.html %}
 
-
-## Possible Workaround
+## Suggested Workarounds
 <!-- Optional -->
 State the workaround for the issue, if no solution is available.
+
+If multiple workarounds are available, use h3 elements, like this:
+### Workaround #1
+Content here...
+
+### Workaround #2
+Content here...
+
+### Workaround #3
+Content here...
 
 ## Notes
 <!-- Optional -->
