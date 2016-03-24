@@ -116,9 +116,9 @@ If the root cause is not known use the standard statement:
 
 ## Solution
 <!-- Mandatory -->
-Provide information about resolving the issue. Use bullets or numbered steps, if applicable. The solution is used when we are sure that certain steps cover\solve the whole issue and they follow the best approach we are aware of for that purpose. If no clean resolution is available we must insert the introductory sentence which states that there is no solution and then, have at least one **Possible Workaround** below.
+Provide information about resolving the issue. Use bullets or numbered steps, if applicable. The solution is used when we are sure that certain steps cover\solve the whole issue and they follow the best approach we are aware of for that purpose. If no clean resolution is available we must use the following include:
 
-E.g.: There is no clean solution for [this]. Please check the suggested workaround(s) below for further assistance. 
+{% include /_troubleshooting/no-solution-available.html %}
 
 <!-- TO DO: We need to add sample statements for the different cases. E.g.:
 Use bullets or numbered steps and the commands needed to resolve the issue.
@@ -147,9 +147,19 @@ Use bullets or numbered steps and the commands needed to resolve the issue.
 
 	* State the version or hot fix number where it is fixed. -->
 
-## Workaround
+## Suggested Workarounds
 <!-- Optional -->
 State the workaround for the issue, if no solution is available.
+
+If multiple workarounds are available, use h3 elements, like this:
+### Workaround #1
+Content here...
+
+### Workaround #2
+Content here...
+
+### Workaround #3
+Content here...
 
 ## Notes
 <!-- Optional -->
