@@ -1,6 +1,6 @@
 ---
 title: How to Whitelist the Elastic Amazon Web Services IPs for Telerik Platform
-description: Establishing a secure connection between your machine and AWS that AppBuilder stays behind.
+description: Whitelist the range of IP addresses that Telerik Platform uses. How to do this for elastic AWS IPs? I need to establish a secure communication channel. that AppBuilder stays behind.
 type: how-to
 page_title: Whitelisting Amazon IPs for Secure AppBuilder Connection
 slug: how-to-whitelist-aws-ips 
@@ -26,7 +26,7 @@ aws: Amazon Web Services
 </table>
 
 ## Description
-Is there a way to whitelist the range of IP addresses that Telerik Platform uses on the {{ page.aws }}  (AWS) infrastructure? How to do this having in mind that AWS IPs are elastic? I need this in order to establish a secure communication channel.
+The Telerik Platform is hosted on the {{ page.aws }} (AWS) and uses a range of elastic IP addresses. If you are behind a firewall, you might need to whitelist this range of IPs to establish a secure connection between your system and the Telerik Platform.
 
 ## Solution
 > **IMPORTANT**: {{ page.aws }} IP ranges are subject to change without notice. This is  further discussed [here](http://serverfault.com/questions/665191/whitelist-elastic-load-balancer-based-on-ip).
