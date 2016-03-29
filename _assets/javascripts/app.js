@@ -49,7 +49,26 @@ function preventParentSelection(e) {
     }
 }
 
+function setFooterText() {
+  var title = getActiveStyleSheet(),
+      status = (title === 'dark') ? 'on' : 'off';
+
+  $('.foot__status').text('Lights ' + status);
+}
+
 $(function(){
+  setFooterText();
+
+  $('.foot__switch').click(function() {
+    var title = getActiveStyleSheet();
+
+    title = (title === 'dark') ? 'light' : 'dark';
+
+    setActiveStyleSheet(title);
+    setFooterText();
+
+    return false;
+  });
 
     $("pre[lang]").each(function() {
        if (this.parentNode.className.indexOf("k-content") >= 0) {
