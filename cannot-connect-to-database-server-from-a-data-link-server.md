@@ -1,8 +1,8 @@
 ---
-title: Cannot connect to the database server from the {{site.dls}}
+title: Cannot Connect to the Database Server from the {{site.dls}}
 description: Check your connection string if you receive the &quot;Cannot connect to database&quot; error.
 type: troubleshooting
-page_title: Unsuccessful connection between {{site.dls}} and database
+page_title:  Unsuccessful Connection Between {{site.dls}} and Database
 slug: cannot-connect-to-database-server-from-a-data-link-server
 position:
 tags: data connector, data link server, data, sql, everlive, backend, connection
@@ -12,7 +12,6 @@ pitsid:
 ---
 
 ## Environment
-
 <table>
   <tr>
     <td>Service</td>
@@ -25,22 +24,18 @@ pitsid:
 </table>
 
 ## Description
-
 When configuring a {{site.dc}} to a database that requires the {{site.dls}}, an error occurs after clicking the **Test** button.
 
 At the same time, opening the {{site.dls}} URL in a web browser returns *Result: OK*.
 
 ## Error Message
-
 `Data Link Server Error: Cannot connect to database. [Telerik Platform] The connection to the host [hostname], named instance [instance name] failed. Error: [message]. Verify the server and instance names and check that no firewall is blocking UDP traffic to port 1434.  For SQL Server 2005 or later, verify that the SQL Server Browser Service is running on the host.`
 
 ## Cause
-
 The error signifies that the {{site.dls}} cannot connect to the database even though the connection between {{site.tp}} and the {{site.dls}} is successful.
 
 ## Solution
-
-Ensure that the connection string that you supplied uses the correct format for the database:
+Ensure that the supplied connection string is in the correct format for the respective database server:
 
 * Microsoft SQL Server
 
@@ -71,7 +66,6 @@ Ensure that the connection string that you supplied uses the correct format for 
 	`lnx15.example.com:5432;DatabaseName=ExampleDatabase;User=jsmith;Password=pa$$`
 	
 ## See Also
-
 * [Getting Started with Relational Data Connectors](http://docs.telerik.com/platform/backend-services/javascript/data-connectors/sql/data-connectors-getting-started)
 * [Error Establishing a Connection to a {{site.dls}}]({% slug error-establishing-connection-to-a-data-link-server %})
 * [Error Accessing the {{site.dls}}]({% slug error-accessing-data-link-server %})
