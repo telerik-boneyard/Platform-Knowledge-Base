@@ -1,21 +1,22 @@
 function expandNavigation(url) {
-    return function() {
-        var segments = url.split("/");
-        var page = segments[segments.length - 1];
-        var treeview = this;
-
-        var dataSource = this.dataSource;
-        var node;
-
-        for (var idx = 0; idx < segments.length; idx++) {
-            node = dataSource.get(segments[idx]);
-            node.set("expanded", true);
-            dataSource = node.children;
+    return function(data) {
+        if (!data.node) {
+            var segments = url.split("/");
+            var page = segments[segments.length - 1];
+            var treeview = this;
+​
+            var dataSource = this.dataSource;
+            var node;
+​
+            for (var idx = 0; idx < segments.length; idx++) {
+                node = dataSource.get(segments[idx]);
+                dataSource = node.children;
+            }
+​
+            node.set("selected", true);
+​
+            this.unbind("dataBound", arguments.callee);
         }
-
-        node.set("selected", true);
-
-        this.unbind("dataBound", arguments.callee);
     }
 }
 

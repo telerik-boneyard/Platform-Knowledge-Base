@@ -43,6 +43,11 @@ module Jekyll
                             item['position'] = mapping['position'] if mapping.has_key?('position')
                         end
 
+                        #Set expanded to all folders on the root level
+                        if index == 0 and item['items']
+                            item['expanded'] = true
+                        end
+
                         node << item
                     end
 
