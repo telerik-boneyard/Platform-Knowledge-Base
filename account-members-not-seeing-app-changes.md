@@ -11,32 +11,34 @@ teampulseid:
 ticketid:  1000257, 984390, 956285, 945633, 945575, 945500, 931027
 pitsid: <!-- Not sure we need this, as pits item are related to teampulse anyway -->
 ---
+
 ## Environment
-<!-- Environment Table -->
-<!-- TO DO:
-     We need to check how such can be developed according to our needs:
- 	 We don't need Header roll, but rather a title: Environment. -->
-> **Service:** AppBuilder
->
-> **Mobile Development Type:** Hybrid and Native
->
-> **Telerik Platform Client:** In-Browser, Classic Windows, Universal Desktop
->
-> **Area:** Version Control and Collaboration
+<table>
+  <tr>
+    <td>Service</td>
+    <td>Telerik Platform</td>	
+  </tr>
+  <tr>
+	<td>Feature</td>
+	<td>Version Control and Collaboration</td>
+  </tr>
+</table>
 
 ## Description
 <!-- Mandatory -->
-We have one developer creating an app in Telerik Platform. None of the other team members can see the changes that developer has made. They could see the app but only in its initial setup with the default files. I ensured all team members have full rights. I also tried opening the app in the desktop and Windows clients as I thought that they are sypposed to sync projects with the In-Browser client. So when changes are saved, the other developers should be able to go back into any of the three clients and see any changes the other developers made.
+Developers working on the same project in Telerik Platform cannot see each others changes. They could see the project but only in its initial setup with the default files, even if all team members have full rights. Opening the project from other Telerik Platform clients also doesn't work, even though the universal desktop client and the classic windows client display the same set of apps as the in-browser client.
 
 ## Solution
 <!-- Mandatory -->
-In Telerik Platform projects are not configured for collaboration by default. This means that when a new project is created, the project automatically becomes visible to all team members of the account. However, they cannot contribute or see your changes in it. Essentially every developer (member of the account) works within their own repository inside Telerik Platform. This is why without configuring a 3rd party remote repository, you can only commit the changes in your own local repository.
+In Telerik Platform when a new app is created, it automatically becomes visible to all team members of the account. The app, however, is not configured for collaboration by default and account members cannot contribute or see each others changes in it. Instead a local repository is created for every account member who opens the app. All version control operations are performed within the local repository and are therefore not available to the other team members working on the app.
 
-To collaborate with other users in Telerik Platform, you need to configure your project for collaboration by setting up a Git repository and inviting the other Telerik Platform users as collaborators to it. Once you do that you can push all changes in the remote repository and allow your team members to pull them thus ensuring you're all working on the latest version of the project and sharing version history.
+To collaborate with other users in Telerik Platform, account members need to manually configure a remote repository for their apps. They can use any third-party Git provider such as GutHub or BitBucket and follow the procedure for [configuring a Telerik Platform app for collaboration](http://docs.telerik.com/platform/appbuilder/development-tools/version-control/collaborating/configure-for-collaboration). In order for multiple users to collaborate on the app, they have to be  [invited as collaborators]() in the remote repository. Then each team member can push changes from Telerik Platform to the remote repository and allow the other team members to pull them in their local repositories inside Telerik Platform. This way the team can be always working on the latest version of the app and the team members can see the version history of the app.
 
-The following tutorials provide more information on setting up a remote repository in Telerik Platform and performing version control operations:
-* [Configure Your Project for Collaboration in Telerik Platform](http://docs.telerik.com/platform/appbuilder/creating-your-project/collaborating/configure-for-collaboration#configure-for-collaboration-from-the-appbuilder-in-browser-client)
-* [Configuring Third-Party Version Control](http://docs.telerik.com/platform/appbuilder/development-tools/version-control/third-party-vc/configuring-third-party-vc/configuring-third-party-vc)
+Telerik Platorm users can use the quick connect option to connect apps to any Git provider or the advanced connect option to connect to a GitHub repository:
+
+* [Connect to Any Git Repository (Quick Connect)](http://docs.telerik.com/platform/appbuilder/development-tools/version-control/third-party-vc/configuring-third-party-vc/connect-any-provider)
+* [Connect to a GitHub Repository (Advanced Connect)](http://docs.telerik.com/platform/appbuilder/development-tools/version-control/third-party-vc/configuring-third-party-vc/github-integration)
+* [Invite Collaborators using Advanced Connect](http://docs.telerik.com/platform/appbuilder/development-tools/version-control/third-party-vc/configuring-third-party-vc/invite-collaborators)
 
 ## See Also
 <!-- Optional -->
