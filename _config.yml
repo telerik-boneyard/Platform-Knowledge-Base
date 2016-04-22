@@ -5,11 +5,12 @@ url: "http://docs.telerik.com/platform/knowledge-base"
 exclude: [README.md,Gemfile,Gemfile.lock]
 navigation:
 ## List your directory names and order here, like this:
-    getting-started:
+    how-to:
         position: 2
-        title: Getting Started
-    "*foo":
-        title: Foo
+        title: How To
+    troubleshooting:
+        position: 3
+        title: Troubleshooting
 
 ## The application virtual path
 baseurl: /platform/knowledge-base
