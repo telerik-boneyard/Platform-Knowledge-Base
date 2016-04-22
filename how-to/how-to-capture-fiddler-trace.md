@@ -15,7 +15,7 @@ pitsid:
 <table>
   <tr>
     <td>Service</td>
-    <td>third-party product</td>	
+    <td>Third-party product</td>	
   </tr>
 </table>
 
