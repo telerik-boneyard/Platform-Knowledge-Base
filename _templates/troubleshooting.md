@@ -16,7 +16,7 @@ pitsid: [A number, representing the public issue tracker ID associated with the 
 <table>
   <tr>
     <td>Service</td>
-    <td>Code, Views, Distribution, Data, Users, Notifications, Business Logic, Analytics, Feedback, Samples, Telerik Platform General, Third-party product</td>	
+    <td>Code (AppBuilder), Views, App Distribution (AppManager), Data (Backend Services), Users, Notifications, Business Logic, Analytics, Feedback, Samples, Telerik Platform General, Third-party product</td>	
   </tr>
   <tr>
     <td>Feature</td>

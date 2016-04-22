@@ -1,5 +1,5 @@
 ---
-title: Kendo UI Professional Is Not Available in the AppBuilder Package Manager
+title: Kendo UI Professional Is Not Available in the Package Manager
 description: Kendo UI Professional is not available in the AppBuilder Package Manager when using a DevCraft license.
 type: troubleshooting
 page_title: Kendo UI Professional Cannot be Installed via the AppBuilder Package Manager
@@ -13,7 +13,7 @@ ticketid: 1017056, 1017115
 <table>
   <tr>
     <td>Service</td>
-    <td>Code</td>
+    <td>Code (AppBuilder)</td>
   </tr>
   <tr>
     <td>Feature</td>
@@ -51,7 +51,8 @@ To do this:
 	* `kendo.common.min.css`
 	* `kendo.[skinName].min.css`, e.g. `kendo.flat.min.css`
 	* `kendo.mobile.all.min.css`
-	Also, copy from the `styles` folder the `[skinName]` folder, e.g. Flat into the `kendo/styles` folder in your project .
+	
+	Also, copy from the `styles` folder the `[skinName]` folder, e.g. Flat into the `kendo/styles` folder in your project.
 7. Add references to the files in the `index.html` file in your app.
 	```
 	<link rel="stylesheet" href="styles/kendo.common.min.css" />

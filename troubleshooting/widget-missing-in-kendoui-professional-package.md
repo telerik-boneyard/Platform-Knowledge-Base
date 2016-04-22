@@ -13,7 +13,7 @@ ticketid: 1017633
 <table>
   <tr>
     <td>Service</td>
-    <td>Code</td>
+    <td>Code (AppBuilder)</td>
   </tr>
   <tr>
     <td>Feature</td>
@@ -59,7 +59,8 @@ To do this, follow the steps below for the library of your choice:
 		* `kendo.common.min.css`
 		* `kendo.[skinName].min.css`, e.g., `kendo.flat.min.css`
 		* `kendo.mobile.all.min.css`
-	Also, copy from the `styles` folder the `[skinName]` folder, e.g. Flat into the `kendo/styles` folder in your project .
+	
+		Also, copy from the `styles` folder the `[skinName]` folder, e.g. Flat into the `kendo/styles` folder in your project.
 	3. Add references to the files in the `index.html` file in your app.
 	```
 	<link rel="stylesheet" href="styles/kendo.common.min.css" />
@@ -82,7 +83,8 @@ To do this, follow the steps below for the library of your choice:
 		* `kendo.common.min.css`
 		* `kendo.[skinName].min.css`, e.g., `kendo.flat.min.css`
 		* `kendo.mobile.all.min.css`
-	Also, copy from the `styles` folder the `[skinName]` folder, e.g. Flat into the `kendo/styles` folder in your project .
+	
+		Also, copy from the `styles` folder the `[skinName]` folder, e.g. Flat into the `kendo/styles` folder in your project.
 	7. Add references to the files in the `index.html` file in your app.
 	```
 	<link rel="stylesheet" href="styles/kendo.common.min.css" />
