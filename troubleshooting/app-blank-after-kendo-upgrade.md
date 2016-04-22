@@ -12,7 +12,7 @@ ticketid: 1017633
 <table>
   <tr>
     <td>Service</td>
-    <td>Code</td>
+    <td>Code (AppBuilder)</td>
   </tr>
   <tr>
     <td>Feature</td>

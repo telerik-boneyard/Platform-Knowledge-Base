@@ -16,15 +16,15 @@ pitsid:
 <table>
   <tr>
     <td>Service</td>
-    <td>Code, Distribution</td>	
+    <td>Code (AppBuilder)</td>	
   </tr>
   <tr>
     <td>Feature</td>
-    <td>Android Cloud Build - Application package </td>	
+    <td>Cloud Build - Application package, Publish - App Stores</td>	
   </tr>
   <tr>
     <td>Mobile development type</td>
-    <td>Hybrid 
+    <td>Hybrid (Cordova app)
   <tr>
     <td>Mobile OS</td>
     <td>Android</td>	

@@ -17,7 +17,7 @@ aws: Amazon Web Services
 <table>
   <tr>
     <td>Service</td>
-    <td>Telerik Platform</td>	
+    <td>Telerik Platform General</td>	
   </tr>
   <tr>
 	<td>Feature</td>
