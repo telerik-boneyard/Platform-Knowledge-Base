@@ -80,6 +80,7 @@ wp81: "Windows Phone 8.1"
 wp-store: "Windows Phone Store"
 ios-store: "App Store"
 android-store: "Google Play"
+taet: "Telerik Application Enrollment Token"
 
 # Plugins 
 # We will add plugin vars there as soon as we refer to a plugin in a KB article.
