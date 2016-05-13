@@ -50,6 +50,7 @@ tvpm: "Telerik Verified Plugins Marketplace"
 tjc: "Telerik JustCode"
 kui: "Kendo UI"
 tkui: "Telerik Kendo UI"
+tuin: "Telerik UI for NativeScript"
 
 # Telerik UI services
 ab-s: "Code"
@@ -81,6 +82,7 @@ wp-store: "Windows Phone Store"
 ios-store: "App Store"
 android-store: "Google Play"
 taet: "Telerik Application Enrollment Token"
+mvs: "Microsoft Visual Studio"
 
 # Plugins 
 # We will add plugin vars there as soon as we refer to a plugin in a KB article.
