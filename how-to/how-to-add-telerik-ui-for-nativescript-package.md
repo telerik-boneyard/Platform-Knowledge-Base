@@ -42,7 +42,7 @@ pitsid:
 
 <br />
 ### {{site.tuin}} (Pro)
-1. Navigate to [www.telerik.com/account](www.telerik.com/account) and log in your account.
+1. Navigate to [www.telerik.com/account](https://www.telerik.com/account) and log in your account.
 1. Under **Products and Subscriptions**, select **UI for {{site.ns}}**.
 1. In the newly opened window, select **Download**.
 1. Locate **Other Setup Files** and select `Telerik_UI_for_NativeScript.zip`. The file should begin downloading automatically.
@@ -52,13 +52,12 @@ pitsid:
 1. In the **Project Navigator** (**Solution Explorer** in {{site.mvs}}), right-click the second node from the top and select **Add** &#8594; **Existing Files**.
 1. In the newly opened explorer window, navigate to `nativescript-ui-pro.tgz`, select it, and click **Open**.
 1. Open `package.json` in the root of your app.
-1. Add the following line to the `dependencies` object:
-```JSON
-"nativescript-telerik-ui-pro": "file:path-to-nativescript-ui-pro.tgz"
-```
-```Example
-"nativescript-telerik-ui-pro": "file:nativescript-ui-pro.tgz"
-```
+1. Inside the `dependencies` object add a path to the newly imported package: 
+`"nativescript-telerik-ui-pro": "file:path-to-nativescript-ui-pro.tgz"`
+<br/>
+If the package was placed according to this tutorial, the dependency should look like this:
+`"nativescript-telerik-ui-pro": "file:nativescript-ui-pro.tgz"`
+
 
 <br />
 
