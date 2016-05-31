@@ -1,9 +1,19 @@
-<header>
-    <div class="head__crumb">
-      {% include crumb.html %}
+<div class="head">
+  <div class="head__crumb">
+    {% include crumb.html %}
+  </div>
+
+  <div class="head__tab">
+    {% include tab.html %}
+  </div>
+
+  <div class="head__tool">
+    <div class="head__switch">
+      {% include switch.html %}
     </div>
 
-    <div class="head__find">
-        {% include search.html %}
+    <div class="head__search">
+      {% include search.html %}
     </div>
-</header>
+  </div>
+</div>

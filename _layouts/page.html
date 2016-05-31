@@ -2,19 +2,29 @@
 layout: index
 ---
 
-<main>
-    <nav>
-        <div class="nav__head nav__head--no-desc">
-            <a href="{{site.baseurl}}">
-              <i class="fa fa-question-circle"></i>
-              <span>{{site.productTagName}}</span>
-              <span><!-- {{site.productName}} --></span>
-            </a>
-        </div>
+<div id="split-v" class="split">
+  <div class="pane pane--top">
+    {% include header.html %}
+  </div>
 
-        <div class="nav__tree"></div>
-        <script>
-            $(".nav__tree").kendoTreeView({
+  <div class="pane pane--middle">
+    <div id="split-h" class="split">
+      <div class="pane pane--left">
+        <div class="nav">
+
+          <a class="nav__head">
+            <i class="nav__icon fa fa-info-circle"></i>
+            <div class="nav__top">
+              <span class="nav__title">{{site.productTagName}}</span>
+            </div>
+          </a>
+
+          <div class="nav__tree"></div>
+
+          <div class="nav__spacer spacer"></div>
+
+          <script>
+              $(".nav__tree").kendoTreeView({
                 dataSource: {
                     transport: {
                         read: {
@@ -33,27 +43,36 @@ layout: index
                 select: preventParentSelection,
                 template: navigationTemplate("{{site.baseurl}}/"),
                 dataBound: expandNavigation("{{page.url | remove_first: '/' }}")
-            });
-        </script>
-    </nav>
+              });
+          </script>
+        </div>
+      </div>
 
-    <div class="content">
-        <div class="content__head">
-            <div>
-                {% if page.title %}
-                <h1>{{ page.title }}</h1>
-                {% endif %}
-
-                <div class="content__path">
-                    {% breadcrumb %}
-                </div>
+      <div class="pane pane--center">
+        <div class="content">
+          <div class="content__head">
+            <div class="content__path">
+              {% breadcrumb %}
             </div>
-        </div>
 
-        <div class="content__article">
-            <article class="article--general">
-                {{ content }}
+            <div class="content__top">
+              {% if page.title %}
+              <h1 class="content__title">{{ page.title }}</h1>
+              {% endif %}
+            </div>
+          </div>
+
+          <div class="content__article">
+            <article class="article article--knowledge">
+              {{ content }}
             </article>
+          </div>
+
+          <div class="content__spacer spacer"></div>
         </div>
+      </div>
     </div>
-</main>
+  </div>
+</div>
+
+{% include footer.html %}
