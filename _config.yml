@@ -84,7 +84,7 @@ android-store: "Google Play"
 taet: "Telerik Application Enrollment Token"
 mvs: "Microsoft Visual Studio"
 
-# Plugins 
+# Plugins
 # We will add plugin vars there as soon as we refer to a plugin in a KB article.
 
 # Other
@@ -106,6 +106,9 @@ underscore-v: "1.8.2"
 # Use {% if site.cac != "yes" %}{% endif %} to mark content that does not apply to CAC.
 # cac: "yes"
 
+# Feedback Form Google Sheet ID
+ff-sheet-id: "1smCBXzOecnkuFqYe0d-4AHttAJJjOyC3pG5nJqG_M_M"
+
 # The google services configuration
 google_tag_manager: GTM-6X92
 google_custom_search: '001595215763381649090:imofn4yts_s'
@@ -122,4 +125,3 @@ kramdown:
     toc_levels: 2..3
     smart_quotes: ["quot", "quot", "quot", "quot"]
     input: GFM
-
