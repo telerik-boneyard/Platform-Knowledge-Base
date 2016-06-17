@@ -48,8 +48,8 @@ To return the database quota usage back to the expected values you may consider 
 
 You can manage the log retention policy from the Business Logic settings of your {{site.tp}} app. For example, if your app is in production or you do not longer need to keep the cloud code logs, disable the cloud code logging. 
 
-	1. Click **Settings** from the tab navigation
-	2. Deselect the *Enable cloud code logging* option
+1. Click **Settings** from the tab navigation
+2. Deselect the *Enable cloud code logging* option
 
 
 ## Notes
