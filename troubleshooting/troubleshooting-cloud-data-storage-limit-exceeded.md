@@ -1,5 +1,5 @@
 ---
-title: Your Cloud Database Quota is Too High or Was Exceeded
+title: Your Cloud Database Quota Usage is Too High or Was Exceeded
 type: troubleshooting
 page_title: You have exceeded the limit of your {{site.tbs}} subscription!
 tags: backendservices
