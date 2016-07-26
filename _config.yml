@@ -8,9 +8,15 @@ navigation:
     how-to:
         position: 2
         title: How To
+    how-to/business-logic:
+        position: 100
+        title: Business Logic
     troubleshooting:
         position: 3
         title: Troubleshooting
+    faq:
+        position: 4
+        title: Frequently Asked Questions
 
 ## The application virtual path
 baseurl: /platform/knowledge-base
@@ -67,6 +73,8 @@ dc: "data connector"
 dcs: "data connectors"
 dct: "Data Connectors"
 dls: "Data Link Server"
+bl-data: "Cloud Code for Data"
+bl-func: "Cloud Functions"
 
 # Telerik Platform Companion Apps
 ab-app: "AppBuilder companion app"
