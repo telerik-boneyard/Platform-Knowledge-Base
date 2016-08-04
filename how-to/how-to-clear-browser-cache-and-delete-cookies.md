@@ -27,6 +27,7 @@ In all browsers you need to:
 
 1. Log out from [platform.telerik.com](https://platform.telerik.com) and [telerik.com](https://www.telerik.com).
 2. Clear the cache and your browser cookies for `app.icenium.com` and `platform.telerik.com`. 
+
 > **IMPORTANT:** In case you use Google Chrome, make sure to select clear cookies from beginning of time.
 
 ## Notes
