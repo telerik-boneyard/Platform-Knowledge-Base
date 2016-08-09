@@ -81,6 +81,7 @@ services-disruption,
 sms-notifications,
 stored-procedures,
 user-management
+GCM
 
 ## AppManager
 am-livesync,
