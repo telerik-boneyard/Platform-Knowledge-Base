@@ -46,7 +46,8 @@ The `Cannot upload application` message is generic for the publish service and i
 <!-- Mandatory -->
 Check what the actual error returned from ITMS is in the AppBuilder In-Browser client:
 
-1. Open your project in the [AppBuilder In-Browser client](https://platform.telerik.com). 
+1. Open your project in the [AppBuilder In-Browser client](https://platform.telerik.com).
+ 
 	> **IMPORTANT:** If you are developing your app in the AppBuilder Extension for Visual Studio, you will need to either [connect the code with the cloud](http://docs.telerik.com/platform/appbuilder/development-tools/version-control/collaborating/develop-across-clients), or [import it from archive](http://docs.telerik.com/platform/appbuilder/cordova/creating-your-app/import-from-archive) in the In-Browser client.
 1. Publish the application.
 1. See what is the new error in the Publish window.
