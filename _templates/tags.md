@@ -82,6 +82,8 @@ sms-notifications,
 stored-procedures,
 user-management
 GCM
+user-management,
+business-logic
 
 ## AppManager
 am-livesync,
