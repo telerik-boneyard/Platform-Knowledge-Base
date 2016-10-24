@@ -67,6 +67,7 @@ bs-n: "Notifications"
 bs-bl: "Business Logic"
 eq-s: "Analytics"
 af-s: "Feedback"
+am-ad: "App Distribution"
 
 # Telerik components
 dc: "data connector"
@@ -91,6 +92,14 @@ ios-store: "App Store"
 android-store: "Google Play"
 taet: "Telerik Application Enrollment Token"
 mvs: "Microsoft Visual Studio"
+
+# Aliases for the AB clients
+"ab-web": "In-Browser client"
+"ab-win": "Classic Windows Desktop client"
+"ab-vse": "Extension for Visual Studio"
+"ab-cli": "Command-Line Interface"
+"ab-sp": "Package for Sublime Text"
+"ab-proton": "Universal Desktop client"
 
 # Plugins
 # We will add plugin vars there as soon as we refer to a plugin in a KB article.

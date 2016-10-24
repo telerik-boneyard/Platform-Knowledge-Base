@@ -16,55 +16,68 @@ pitsid: [A number, representing the public issue tracker ID associated with the 
 <table>
   <tr>
     <td>Service</td>
-    <td>Code (AppBuilder), Views, App Distribution (AppManager), Data (Backend Services), Users, Notifications, Business Logic, Analytics, Feedback, Samples, Telerik Platform General, Third-party product</td>	
+    <td>am-ad
+		{{site.ab-s}} ({{site.ab}}), <!--Code (AppBuilder)-->
+		{{site.sb-s}}, <!--Views-->
+		{{site.am-ad}} ({{site.am}}), <!--App Distribution (AppManager)-->
+		{{site.bs-d}} ({{site.bs}}), <!--Data (Backend Services)-->
+		{{site.bs-u}}, <!--Users-->
+		{{site.bs-n}}, <!--Notifications-->
+		{{site.bs-bl}}, <!--Business Logic-->
+		{{site.eq-s}}, <!--Analytics-->
+		{{site.af-s}}, <!--Feedback-->
+		Samples, 
+		{{site.tp}} General, <!--Telerik Platform-->
+		Third-party product
+	</td>
   </tr>
   <tr>
     <td>Feature</td>
-    <td>[specify explicitly]</td>	
+    <td>[specify explicitly]</td>
   </tr>
   <tr>
     <td>Plugin(s)</td>
-    <td>[specify explicitly]</td>	
+    <td>[specify explicitly]</td>
   </tr>
   <tr>
     <td>Mobile development type</td>
-    <td>Hybrid (Cordova app), Native (NativeScript app)</td>	
+    <td>Hybrid ({{site.ac}} app), Native ({{site.ns}} app)</td>
   </tr>
   <tr>
-    <td>Code (AppBuilder) client</td>
-    <td>In-Browser, Extension for Visual Studio, Universal Desktop, Windows, Command-line interface, Sublime Text</td>	
+    <td>{{site.ab-s}} ({{site.ab}})<!--Code (AppBuilder)--> client</td>
+    <td>{{site.ab-web}}, {{site.ab-vse}}, {{site.ab-proton}}, {{site.ab-win}}, {{site.ab-cli}}, {{site.ab-sp}}</td>
   </tr>
   <tr>
     <td>Mobile OS</td>
-    <td>iOS, Android, Windows Phone 8</td>	
+    <td>iOS, Android, Windows Phone 8</td>
   </tr>
   <tr>
     <td>Mobile OS version</td>
-    <td>[specify explicitly]</td>	
+    <td>[specify explicitly]</td>
   </tr>  
   <tr>
-    <td>Backend Services area</td>
-    <td>JavaScript SDK (Hybrid app), JavaScript SDK (Web app), JavaScript SDK (Cloud Code), .NET SDK (Web app), Native iOS app, Native Android app, Native Windows Phone app</td>	
+    <td>{{site.bs}}<!--Backend Services--> area</td>
+    <td>JavaScript SDK (Hybrid app), JavaScript SDK (Web app), JavaScript SDK (Cloud Code), .NET SDK (Web app), Native iOS app, Native Android app, Native Windows Phone app</td>
   </tr>
   <tr>
-    <td>Cordova\NativeScript framework version</td>
-    <td>[specify explicitly]</td>	
+    <td>{{site.ac}}\{{site.ns}} framework version</td>
+    <td>[specify explicitly]</td>
   </tr>
   <tr>
     <td>Browser</td>
-    <td>[specify explicitly]</td>	
+    <td>[specify explicitly]</td>
   </tr>
   <tr>
     <td>Browser version</td>
-    <td>[specify explicitly]</td>	
+    <td>[specify explicitly]</td>
   </tr>
   <tr>
     <td>.NET framework version</td>
-    <td>[specify explicitly]</td>	
+    <td>[specify explicitly]</td>
   </tr>
   <tr>
-    <td>Visual Studio version</td>
-    <td>[specify explicitly]</td>	
+    <td>{{site.mvs}}<!--Microsoft Visual Studio--> version</td>
+    <td>[specify explicitly]</td>
   </tr>
 </table>
 
