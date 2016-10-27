@@ -15,11 +15,11 @@ pitsid:
 <table>
   <tr>
     <td>Service</td>
-    <td>Business Logic</td>
+    <td>{{site.bs-bl}}, {{site.bs-u}}</td>
   </tr>
   <tr>
     <td>Feature</td>
-    <td>Cloud Functions</td>
+    <td>{{site.bl-func}}, {{site.bl-data}}</td>
   </tr>
 </table>
 
@@ -31,7 +31,7 @@ Frequently you need to set programmatically the role of a user account based on 
 
 You can add such logic to the business logic layer - for example you may expose a Cloud Function available to administrattors only or after a user account is created - check for certain conditions and update the role.
 
-Updating a user role requires the use of a [Master Key]({http://docs.telerik.com/platform/backend-services/javascript/security/security-master-key-auth}) - it is strongly recommended not to include your Master Key inside your app code - therefore a perfect solution is to use clode code as the code stays on {{site.tp}} server. 
+Updating a user role requires the use of a [Master Key]({http://docs.telerik.com/platform/backend-services/javascript/security/security-master-key-auth}) - it is strongly recommended not to include your Master Key inside your app code - therefore a perfect solution is to use Cloud Code as the code stays on {{site.tp}} server. 
 
 Here is an example using the JavaScript SDK in the Cloud Code to change the user role:
 
@@ -66,7 +66,7 @@ Here is an example using the JavaScript SDK in the Cloud Code to change the user
 ```
 
 ## Notes
-If you decide to go with the cloud function, you can also [set permisions on who can execute {{site.bl-func}}]({http://docs.telerik.com/platform/backend-services/javascript/server-side-logic/cloud-code/cloud-functions/cloud-functions-security}) in order to achieve better security. For example, you can allow only to users in the "Administrator" role to be able to invoke this cloud function.
+If you decide to go with a Cloud function, you can [set permisions on who can execute {{site.bl-func}}]({http://docs.telerik.com/platform/backend-services/javascript/server-side-logic/cloud-code/cloud-functions/cloud-functions-security}) in order to achieve better security. For example, you can allow only users with an "Administrator" role to be able to invoke the Cloud function.
  
 ## See Also
 
