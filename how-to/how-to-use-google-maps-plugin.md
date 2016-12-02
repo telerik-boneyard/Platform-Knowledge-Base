@@ -10,7 +10,6 @@ ticketid: 1065383, 1058374, 1068653
 
 ---
 
-
 ## Environment
 <table>
   <tr>
@@ -32,11 +31,9 @@ ticketid: 1065383, 1058374, 1068653
 </table>
 
 ## Description
-
 The [Google Maps plugin](https://github.com/mapsplugin/cordova-plugin-googlemaps) offers a wrapper around the  Google Maps Android API and Google Maps SDK for iOS. These APIs require API keys to work correctly and you need to set these keys in your project before building your app. This article provides instructions for importing the Google Maps custom plugin in a Telerik Platform app and setting the required API keys.
 
 ## Solution
-
 Follow the steps below to add the [Google Maps plugin](https://github.com/mapsplugin/cordova-plugin-googlemaps) to your app.
 
 1. Import the latest version of the plugin, following the instructions in [the documentation](http://docs.telerik.com/platform/appbuilder/cordova/using-plugins/using-custom-plugins/add-custom-plugins).
@@ -62,4 +59,7 @@ Follow the steps below to add the [Google Maps plugin](https://github.com/mapspl
     </config-file>
 ```
 
-Now, you are ready to build your app with the Google Maps API enabled. You can find a sample AppBuilder app using the Google Maps custom plugin here: [Google Maps Sample](https://github.com/PlatformSupport/GoogleMaps-Sample). Note that you will need to copy your API keys to lines 76 and 194 in the Google Maps `plugin.xml` in order for the sample to work.
+Now, you are ready to build your app with the Google Maps API enabled. 
+
+## Notes
+You can find a sample AppBuilder app using the Google Maps custom plugin here: [Google Maps Sample](https://github.com/PlatformSupport/GoogleMaps-Sample). Note that you will need to copy your API keys to lines 76 and 194 in the Google Maps `plugin.xml` in order for the sample to work.
