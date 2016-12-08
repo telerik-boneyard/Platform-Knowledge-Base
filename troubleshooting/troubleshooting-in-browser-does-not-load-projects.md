@@ -48,7 +48,3 @@ Disable the Offline mode:
 1. Uncheck the **Enable Offline Mode** option.    
 
 Now, you should be able to open your project successfully.
-
-## Notes
-
-The {{site.tp}} team is working on a fix for this issue scheduled for the {{site.tab}} 3.6 major release.
