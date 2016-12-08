@@ -1,6 +1,6 @@
 ---
-title: Cannot Open Projects in {{site.tp}} In-Browser Client 
-description: {{site.tab}} never finishes loading a project. In-Browser client is hanging while loading an application.
+title: Code Tab in the Telerik Platform In-Browser Client is Slow
+description: Telerik AppBuilder never finishes loading a project. In-Browser client is hanging while loading an application. Code tab is very slow.
 type: troubleshooting
 page_title: Cannot Load Apps in the In-Browser Client
 slug: in-browser-does-not-load-projects
@@ -24,7 +24,7 @@ pitsid:
 
 ## Description
 
-To facilitate development with slower internet connection, {{site.tp}} In-Browser client caches the project data during loading. The browsers have restrictions of the amount of data that can be stored in the cache therefore, for big projects the request is never finished.
+To facilitate development with slower internet connection, {{site.tp}} In-Browser client caches the project data during loading. The browsers have restrictions of the amount of data that can be stored in the cache therefore, for some projects the requests may cause the browser to be slow.
 
 ## Solution
 
@@ -34,7 +34,7 @@ To facilitate development with slower internet connection, {{site.tp}} In-Browse
 
 ### Workaround #1
 
-[Clear the browser cache and {{site.tp}} cookies](http://docs.telerik.com/platform/knowledge-base/how-to/how-to-clear-browser-cache-and-delete-cookies)
+[Clear the browser cache and {{site.tp}} cookies]({% slug clear-browser-cache %})
 
 ### Workaround #2
 
