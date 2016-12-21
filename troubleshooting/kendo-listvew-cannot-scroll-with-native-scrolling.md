@@ -2,7 +2,7 @@
 title: Kendo UI Native Scrolling Stopped Working on Android
 description: App scrolling stopped working after updating Android System WebView. useNativeScrolling breaks ListView scrolling.
 type: troubleshooting
-page_title: Native Scrolling Breaks ListView Scrolling on Android
+page_title: Native Scrolling Feature is Broken on Android
 slug: kendo-listview-cannot-scroll-with-native-scrolling
 position: 
 tags: kendo
@@ -33,7 +33,7 @@ pitsid:
 </table>
 
 ## Description
-After updating the Android System Web View, native scrolling stopped working. In apps using Kendo Hybrid UI, you cannot scroll the ListViews defined within views with native scrolling enabled. This used to work without issues before updating the Android System WebView.
+After updating the Android System Web View, Kendo UI native scrolling stopped working. In apps using Kendo Hybrid UI, you cannot scroll views and ListView widgets when native scrolling  is enabled.
 
 ## Steps to Reproduce
 1. Create a Cordova app from one of the Kendo templates.
@@ -44,7 +44,7 @@ After updating the Android System Web View, native scrolling stopped working. In
 Instead of being able to scroll down to the end of the list, the ListView scroll is locked.
 
 ## Cause
-The latest version of the Android System WebView introduced changes that interfered with the Kendo UI implementation for handling user actions in the ListView widget. This caused a bug in the native scrolling of ListViews.
+The latest version of the Android System WebView introduced changes that interfered with the Kendo UI implementation for handling user touch actions. This caused a bug in the native scrolling of apps using Kendo Hybrid UI.
 
 ## Solution
 There is already a fix in Kendo UI that addresses the broken scrolling. To apply it, install Kendo UI version **2016.3.1216** [using the {{site.ab}} Package Manager](http://docs.telerik.com/platform/appbuilder/cordova/supported-frameworks/update-project-libraries#update-kendo-ui-core-or-kendo-ui-professional).
