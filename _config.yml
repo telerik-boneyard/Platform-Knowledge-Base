@@ -77,9 +77,9 @@ bl-data: "Cloud Code for Data"
 bl-func: "Cloud Functions"
 
 # Telerik Platform Companion Apps
-ab-app: "AppBuilder companion app"
-ns-app: "NativeScript companion app"
-tp-app: "Telerik Platform companion app"
+ab-app: "Cordova Developer App"
+ns-app: "NativeScript Developer App"
+tp-app: "Platform Companion App"
 
 # 3rd party products and trademarks
 ac: "Apache Cordova"
