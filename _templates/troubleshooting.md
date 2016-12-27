@@ -16,20 +16,20 @@ pitsid: [A number, representing the public issue tracker ID associated with the 
 <table>
   <tr>
     <td>Service</td>
-    <td>am-ad
-		{{site.ab-s}} ({{site.ab}}), <!--Code (AppBuilder)-->
-		{{site.sb-s}}, <!--Views-->
-		{{site.am-ad}} ({{site.am}}), <!--App Distribution (AppManager)-->
-		{{site.bs-d}} ({{site.bs}}), <!--Data (Backend Services)-->
-		{{site.bs-u}}, <!--Users-->
-		{{site.bs-n}}, <!--Notifications-->
-		{{site.bs-bl}}, <!--Business Logic-->
-		{{site.eq-s}}, <!--Analytics-->
-		{{site.af-s}}, <!--Feedback-->
-		Samples, 
-		{{site.tp}} General, <!--Telerik Platform-->
-		Third-party product
-	</td>
+    <td>
+	{{site.ab-s}} ({{site.ab}}), <!--Code (AppBuilder)-->
+	{{site.sb-s}}, <!--Views-->
+	{{site.am-ad}} ({{site.am}}), <!--App Distribution (AppManager)-->
+	{{site.bs-d}} ({{site.bs}}), <!--Data (Backend Services)-->
+	{{site.bs-u}}, <!--Users-->
+	{{site.bs-n}}, <!--Notifications-->
+	{{site.bs-bl}}, <!--Business Logic-->
+	{{site.eq-s}}, <!--Analytics-->
+	{{site.af-s}}, <!--Feedback-->
+	Samples, 
+	{{site.tp}} General, <!--Telerik Platform-->
+	Third-party product
+    </td>
   </tr>
   <tr>
     <td>Feature</td>
