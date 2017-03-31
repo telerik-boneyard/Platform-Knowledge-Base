@@ -3,18 +3,14 @@ function expandNavigation(url) {
         if (!data.node) {
             var segments = url.split("/");
             var page = segments[segments.length - 1];
-            var treeview = this;
-​
+            var treeview = this;        
             var dataSource = this.dataSource;
             var node;
-​
             for (var idx = 0; idx < segments.length; idx++) {
                 node = dataSource.get(segments[idx]);
                 dataSource = node.children;
             }
-​
             node.set("selected", true);
-​
             this.unbind("dataBound", arguments.callee);
         }
     }
