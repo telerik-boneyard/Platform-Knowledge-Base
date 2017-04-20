@@ -16,7 +16,7 @@ pitsid: [A number, representing the public issue tracker ID associated with the 
 <table>
   <tr>
     <td>Service</td>
-    <td>am-ad
+    <td>
 		{{site.ab-s}} ({{site.ab}}), <!--Code (AppBuilder)-->
 		{{site.sb-s}}, <!--Views-->
 		{{site.am-ad}} ({{site.am}}), <!--App Distribution (AppManager)-->
