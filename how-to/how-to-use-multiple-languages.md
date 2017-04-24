@@ -37,7 +37,7 @@ By adding a support for more languages than the default language of your app you
 
 The {{site.sb-s}} service in {{site.tp}} already provides a way to do so in the generated code for newly-created apps. The procedure for doing so in a project generated via the {{site.sb-s}} service is explained in [Implement Multi-Lingual Support](http://docs.telerik.com/platform/screenbuilder/troubleshooting/localization). 
 
-Refer to the solution below if you would like to update your existing app or use an approach outside of the {{site.sb-s}} service. 
+Refer to the solution below if you would like to update your existing app with intebrationalization support and/or use an approach outside of the {{site.sb-s}} service. 
  
 ## Solution
 
