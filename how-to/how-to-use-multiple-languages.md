@@ -18,7 +18,7 @@ pitsid:
     <td>
 		{{site.ab-s}} ({{site.ab}}), <!--Code (AppBuilder)-->
 		{{site.sb-s}}, <!--Views-->
-		{{site.tp}} General, <!--Telerik Platform-->
+		{{site.tp}} General <!--Telerik Platform-->
 	</td>
   </tr>
   <tr>
@@ -33,17 +33,17 @@ pitsid:
 
 ## Description
 
-By adding a support for a few more languages than the default language of your app you can make it usable for more users. 
+By adding a support for more languages than the default language of your app you can make it usable for more users. 
 
-For newly-created apps in {{site.tp}} the {{site.sb-s}} service ({{site.sb-s}}) already provides a way to do so in the generated code. The procedure for doing so in a project generated via the Views service is explained in [Implement Multi-Lingual Support](http://docs.telerik.com/platform/screenbuilder/troubleshooting/localization). 
+The {{site.sb-s}} service in {{site.tp}} already provides a way to do so in the generated code for newly-created apps. The procedure for doing so in a project generated via the {{site.sb-s}} service is explained in [Implement Multi-Lingual Support](http://docs.telerik.com/platform/screenbuilder/troubleshooting/localization). 
 
 Refer to the solution below if you would like to update your existing app or use an approach outside of the {{site.sb-s}} service. 
  
 ## Solution
 
-Consult the steps below to implement an internationalization of your hybrid app built with {{site.tp}} and Kendo Hybrid UI. 
+Consult the steps below for an example approach how to implement an internationalization support for your hybrid app built with {{site.tp}} and Kendo Hybrid UI. 
 
-1. Create a variable (or a file) that contains a mapping for the static strings and texts used in your app for the different languages you would like to support. For instance:
+1. Create a variable (or a file) that contains a mapping for the static strings and texts used in your app for the different languages you would like to support. For instance, an object containing a few strings to be used for either English or Bulgarian language support in the app:
 
 	```
 	app.strings = {
@@ -62,7 +62,7 @@ Consult the steps below to implement an internationalization of your hybrid app 
 	};
 	``` 
 
-2. Iterate over your application views and set one of the sets of strings as default. You can also use the `changeLanguage` function to allow the user switching the language. 
+2. Iterate over your application views and set one of the language sets as default. You can also use the `changeLanguage` function to allow the user switching the language. 
 
 	```
 	'use strict';
@@ -101,8 +101,13 @@ Consult the steps below to implement an internationalization of your hybrid app 
 	    </a>
 	</div>
 	``` 
-## See Also
 
+## Notes 
+
+You can also use the methods of the [Cordova Globalization](http://docs.telerik.com/platform/appbuilder/cordova/using-plugins/using-core-plugins/using-core-plugins) Core Plugin to detect the device culture. According to the detected device language set programmatically which set of strings to be used in your application.  
+
+## See Also
 
 * [Implement Multi-Lingual Support](http://docs.telerik.com/platform/screenbuilder/troubleshooting/localization)
 * [Cordova Globalization Plugin](https://cordova.apache.org/docs/en/latest/reference/cordova-plugin-globalization/)
+* [Configure the Core Plugins](http://docs.telerik.com/platform/appbuilder/cordova/using-plugins/using-core-plugins/enable-disable-core)
