@@ -1,0 +1,82 @@
+---
+title: **characters_limit_255**
+description: **characters_limit_255**
+type: faq
+page_title: **html_head_title**
+slug: **faq-cloud-code-users**
+position:
+tags: **keywords_in_TAGs_file**
+teampulseid: **teamPulse_id**
+ticketid: **ticket_id**
+pitsid:
+
+---
+## Environment
+<!-- **Mandatory** -->
+<!--
+
+1. Service
+		Code (AppBuilder) ----> {{site.ab-s}} ({{site.ab}})
+		Views ----> {{site.sb-s}}
+		App Distribution (AppManager) ----> {{site.am-ad}} ({{site.am}})
+		Data (Backend Services) ----> {{site.bs-d}} ({{site.bs}})
+		Users ---->{{site.bs-u}}
+		Notifications ----> {{site.bs-n}}
+		Business Logic ----> {{site.bs-bl}}
+		Analytics ----> {{site.eq-s}}
+		Feedback ----> {{site.af-s}}
+		Samples
+		Telerik Platform General ----> {{site.tp}} General
+		Third-party product
+2. Feature
+3. Plugin(s)
+4. Mobile development type
+        Hybrid app ----> {{site.ac}} app
+        Native app ----> {{site.ns}} app
+5. Code (AppBuilder) client ----> {{site.ab-s}} ({{site.ab}}) client
+        In-Browser client ----> {{site.ab-web}}
+        Extension for Visual Studio ----> {{site.ab-vse}}
+        Universal Desktop client ----> {{site.ab-proton}}
+        Classic Windows Desktop client ----> {{site.ab-win}}
+        Command-Line Interface ----> {{site.ab-cli}}
+        Package for Sublime Text ----> {{site.ab-sp}}
+6. Mobile OS
+7. Mobile OS version
+8. Browser
+9. Browser version
+10. Backend Services area ----> {{site.bs}} area
+        JavaScript SDK (Hybrid app)
+        JavaScript SDK (Web app)
+        JavaScript SDK (Cloud Code)
+        .NET SDK (Web app)
+        Native iOS app
+        Native Android app
+        Native Windows Phone app
+11. Apache Cordova framework version ----> {{site.ac}} framework version
+12. NativeScript framework version ----> {{site.ns}} framework version
+13. .NET framework version
+14. Microsoft Visual Studio version ----> {{site.mvs}} version
+-->
+
+<table>
+  <tr>
+    <td>	</td>
+    <td>	</td>
+  </tr>
+</table>
+
+## Introduction
+<!-- **Mandatory** -->
+Summarize the topic to which the FAQs are relating. One or two sentences are enough.
+End the section with an article table of contents (TOC):
+
+* [FAQ 1?](#faq-1)
+* [FAQ 2?](#faq-2)
+* [FAQ 3?](#faq-3)
+
+## FAQ 1?
+Write the section name as a question. Put yourself in the shoes of the user when composing the sentence. Use as many keywords as possible while still keeping the sentence organic. When multiple keyword choices are available, try and include the spare ones in the answer to aid SEO.
+
+## FAQ 2?
+
+## FAQ 3?
