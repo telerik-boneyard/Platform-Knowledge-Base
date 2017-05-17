@@ -22,10 +22,6 @@ pitsid:
 	</td>
   </tr>
   <tr>
-    <td>Feature</td>
-    <td>Localization, Internationalization</td>
-  </tr>
-  <tr>
     <td>Mobile development type</td>
     <td>Hybrid ({{site.ac}} app)</td>
   </tr>
