@@ -16,9 +16,9 @@ pitsid:
 <table>
   <tr>
     <td>Service</td>
-    <td>{{site.bs-d}} ({{site.bs}})</td>   
+    <td>{{site.bs-n}} ({{site.bs}})</td>   
   </tr>
-	<tr>
+  <tr>
     <td>Feature</td>
     <td>Push Notifications</td>
   </tr>
