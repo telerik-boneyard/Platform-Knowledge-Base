@@ -26,7 +26,7 @@ pitsid:
 
 ## Description
 
-You need to programmatically track the status and feedback for the sent push notifications and optionally, take action depending on the failed push notifications. 
+You need to programmatically track the status and feedback for the sent push notifications and optionally, take action in case of failed push notifications. 
 
 ## Solution
 
@@ -67,13 +67,17 @@ The following steps illustrate how to check the status for a push notification a
 	}
 	```
 
-3. To get the information for the failed notification, get its Id and read the logs for this Id as explained in [Reading Push Notifications Logs](http://docs.telerik.com/platform/backend-services/rest/administration-api/push-notifications/push-read-logs).
+3. To get the information for the failed notification:
+	* Copy the Id of the item
+	* Read the logs for this Id as explained in [Reading Push Notifications Logs](http://docs.telerik.com/platform/backend-services/rest/administration-api/push-notifications/push-read-logs).
+
+4. (Optional) Depending on the reason for the failed push notifications you can either troubleshoot and try to eliminate the reason for the failure or resend the notification to the failed devices as explained [here](http://docs.telerik.com/platform/backend-services/rest/administration-api/push-notifications/push-resend). 
 
 ## Notes
 
-For more information about the device platform types you can read [here](http://docs.telerik.com/platform/backend-services/rest/push-notifications/push-object-fields).
+You can read more information about the device platform types [here](http://docs.telerik.com/platform/backend-services/rest/push-notifications/push-object-fields).
 
-For more information about the status field of a notification you can read in the System set fields section [here](http://docs.telerik.com/platform/backend-services/rest/push-notifications/send-and-target/push-set-options#system-set-fields).
+You can read more information about the status field of a notification in the System set fields section [here](http://docs.telerik.com/platform/backend-services/rest/push-notifications/send-and-target/push-set-options#system-set-fields).
 
 ## See Also
 
@@ -81,3 +85,4 @@ For more information about the status field of a notification you can read in th
 * [Troubleshooting Push Notifications](http://docs.telerik.com/platform/backend-services/rest/push-notifications/troubleshooting/introduction)
 * [Reading Push Notifications Logs](http://docs.telerik.com/platform/backend-services/rest/administration-api/push-notifications/push-read-logs)
 * [Reading Push Notifications](http://docs.telerik.com/platform/backend-services/rest/administration-api/push-notifications/push-read)
+* [Resending Push Notifications](http://docs.telerik.com/platform/backend-services/rest/administration-api/push-notifications/push-resend)
