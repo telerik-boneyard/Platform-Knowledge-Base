@@ -29,16 +29,16 @@ pitsid:
     <td>iOS</td>
   </tr>
   <tr>
-    <td>{{site.ac}}framework version</td>
+    <td>{{site.ac}} framework version</td>
     <td>6.4.0</td>
   </tr>
 </table>
 
 ## Description
 
-You have set the target {{site.ac}} version to 6.4.0 of your app. After publishing the app is rejected due to missing usage description Info.plist key. 
+You have set the target {{site.ac}} version to 6.4.0 of your app. After publishing the app is rejected due to missing `Info.plist` key. 
 
-Your app is using {{site.ac}} plugins that require usage description text for iOS (eg. Camera, Capture, QR Scanner, Contacts, etc.)
+Your app is using {{site.ac}} plugins that require usage description text for iOS API access (eg. Camera, Capture, QR Scanner, Contacts, etc.)
 
 ## Error Message
 
@@ -52,12 +52,12 @@ The required usage description text is not added to the `Info.plist` file (even 
 
 ## Solution
 
-You have to add the usage description text by setting the plugin variable for each plugin that requires access to 
+You have to add the usage description text by setting a plugin variable for each plugin that requires access to 
 the given device API.
 
-1.Locate the plugins your app is using and that may require access to the camera, photo library, contacts, etc.
+1. Locate the plugins your app is using and that may require access to the camera, photo library, contacts, etc.
 2. Set the dedicated plugin variable as explained [here](http://docs.telerik.com/platform/appbuilder/cordova/using-plugins/set-plugin-variable)
-3. Remove any manually added description strings for the same purpose (if any) from the `Info.plist` file.
+3. Remove any manually added description strings for the same purpose (if any) from the `Info.plist` file
 4. Re-build the app
 5. Publish again the app 
 
