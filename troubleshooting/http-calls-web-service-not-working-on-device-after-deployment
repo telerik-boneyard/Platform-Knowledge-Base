@@ -1,5 +1,5 @@
 ---
-title: Dummy Title for test
+title: HTTP Communication Between the Mobile App and Web Service Is Not Working after Deployment
 description: Connection to a web service over HTTP calls is not working after the app was deployed to a device  
 type: troubleshooting
 page_title: HTTP Communication Between the Mobile App and Web Service Is Not Working after Deployment
