@@ -17,7 +17,7 @@ pitsid:
     <td>Service</td>
     <td>
 	{{site.ab-s}} ({{site.ab}}), <!--Code (AppBuilder)-->
-	{{site.eq-s}}, <!--Analytics-->
+	{{site.eq-s}} <!--Analytics-->
     </td>
   </tr>
   <tr>
@@ -26,7 +26,7 @@ pitsid:
   </tr>
   <tr>
     <td>Mobile development type</td>
-    <td>Hybrid ({{site.ac}} app</td>
+    <td>Hybrid ({{site.ac}}) app</td>
   </tr>
 </table>
 
