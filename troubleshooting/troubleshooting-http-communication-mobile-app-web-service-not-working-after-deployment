@@ -69,8 +69,9 @@ Rule out the server and client-side configuration and what may be the configurat
 	</dict>
 	```
 
-
 ## See Also
 
-* [Set Plugin Variables](http://docs.telerik.com/platform/appbuilder/cordova/using-plugins/set-plugin-variable)
-* [Expected App Behaviors](https://developer.apple.com/library/content/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/ExpectedAppBehaviors/ExpectedAppBehaviors.html#//apple_ref/doc/uid/TP40007072-CH3-SW6) 
+*[App Cannot Connect to a Remote Service over HTTPS When Running on Device](http://docs.telerik.com/platform/knowledge-base/troubleshooting/app-does-not-connect-to-remote-point)
+* [Cordova Whitelist Plugin for Cordova 6.x.x](https://cordova.apache.org/docs/en/6.x/reference/cordova-plugin-whitelist/index.html)
+* [Info Plist Keys Reference](https://developer.apple.com/library/content/documentation/General/Reference/InfoPlistKeyReference/Articles/CocoaKeys.html)
+* [Edit Configuration Files of your Hybrid App](http://docs.telerik.com/platform/appbuilder/cordova/configuring-your-app/edit-configuration)
