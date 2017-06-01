@@ -16,7 +16,7 @@ pitsid:
   <tr>
     <td>Service</td>
     <td>
-	{{site.ab-s}} ({{site.ab}}), <!--Code (AppBuilder)-->
+	{{site.ab-s}} ({{site.ab}}) <!--Code (AppBuilder)-->
     </td>
   </tr>
   <tr>
@@ -25,7 +25,7 @@ pitsid:
   </tr>
   <tr>
     <td>Mobile OS</td>
-    <td>iOS</td>
+    <td>iOS, Android</td>
   </tr>
   <tr>
     <td>{{site.ac}} framework version</td>
@@ -39,7 +39,7 @@ You have set the target {{site.ac}} version of your app to 4.0.0 or higher. Afte
 
 ## Error Message
 
-The web service returns error code `404 Not Found`. 
+The web service is returning error code `404 Not Found`. 
 
 ## Cause
 
@@ -50,11 +50,11 @@ The HTTP transport security policy for the app (either OS-configured or develope
 Rule out the server and client-side configuration and what may be the configuration that makes the request to fail. Check the following:
 
 - If your app is pointing to a TLS-secured endpoint check the certificate validity. More information in [App Cannot Connect to a Remote Service over HTTPS When Running on Device](http://docs.telerik.com/platform/knowledge-base/troubleshooting/app-does-not-connect-to-remote-point). 
-- Check if you have enabled the Apache Cordova Whitelist plugin in the **Properties &#8594 Plugins &#8594 Core Plugins**.  More on whitelist policy in Apache Cordova-based apps [here](https://cordova.apache.org/docs/en/6.x/reference/cordova-plugin-whitelist/index.html) (for version 6.x.x of Cordova).
-- You have correctly set the whitelist policy of the app to allow navigation to the required protocols and URIs. More on whitelist policy in Apache Cordova-based apps [here](https://cordova.apache.org/docs/en/6.x/reference/cordova-plugin-whitelist/index.html) (for version 6.x.x of Cordova). More information about this in [AJAX jQuery Requests Do Not Work on Android](http://testdocs.telerik.com/platform/knowledge-base/troubleshooting/troubleshooting-android-whitelist-not-enabled).
+- Check if you have enabled the Apache Cordova Whitelist plugin in the **Properties** &#8594 **Plugins** &#8594 **Core Plugins**.  More on whitelist policy in Apache Cordova-based apps [here](https://cordova.apache.org/docs/en/6.x/reference/cordova-plugin-whitelist/index.html) (for version 6.x.x of Cordova).
+- You have correctly set the whitelist policy of the app to allow navigation to the required protocols and URIs. More on whitelist policy in Apache Cordova-based apps [here](https://cordova.apache.org/docs/en/6.x/reference/cordova-plugin-whitelist/index.html) (for version 6.x.x of Cordova). More information about this in [AJAX jQuery Requests Do Not Work on Android](http://docs.telerik.com/platform/knowledge-base/troubleshooting/troubleshooting-android-whitelist-not-enabled).
 - If you are using a web service over HTTP (not secured with TLS) you may add an exception in the iOS `info.plist` file of your app for the [`NSAppTransportSecurity`](https://developer.apple.com/library/content/documentation/General/Reference/InfoPlistKeyReference/Articles/CocoaKeys.html) key. You can edit the `info.plist` file as explained [here](http://docs.telerik.com/platform/appbuilder/cordova/configuring-your-app/edit-configuration). An example transport security exception for the server `example.com`:
 	
-	> Communication over TLS is recommended. Setting the exception below should best remain an exception for testing and development purposes.  
+	> Communication over TLS is recommended. Consider setting the exception below **only for testing and development** purposes.  
 	
 	```
 	<key>NSAppTransportSecurity</key>
@@ -75,3 +75,4 @@ Rule out the server and client-side configuration and what may be the configurat
 * [Cordova Whitelist Plugin for Cordova 6.x.x](https://cordova.apache.org/docs/en/6.x/reference/cordova-plugin-whitelist/index.html)
 * [Info Plist Keys Reference](https://developer.apple.com/library/content/documentation/General/Reference/InfoPlistKeyReference/Articles/CocoaKeys.html)
 * [Edit Configuration Files of your Hybrid App](http://docs.telerik.com/platform/appbuilder/cordova/configuring-your-app/edit-configuration)
+* [AJAX jQuery Requests Do Not Work on Android](http://docs.telerik.com/platform/knowledge-base/troubleshooting/troubleshooting-android-whitelist-not-enabled)
