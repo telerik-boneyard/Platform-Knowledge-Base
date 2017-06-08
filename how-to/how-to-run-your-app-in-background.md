@@ -28,14 +28,14 @@ pitsid:
 
 ## Description
 
-Your app needs to execute tasks when running in the background on specified intervals even when the app is suspended. 
+Your app needs to execute tasks on specified intervals when running in the background. 
 
 ## Solution
 
-Given the differences in the means iOS and Android are granting to the apps for working in the background there may be a different approaches to do so. You will usually need a {{site.ac}} plugin to register and execute your code in the background and ensure that the strict requirements and guidelines of the respective OS are met.  
+Given the differences in the means iOS and Android are granting to apps for working in the background there may be different approaches to do so. You will usually need a {{site.ac}} plugin to register and execute your code in the background and ensure that the strict requirements and guidelines of the respective OS are met.  
 
 iOS has a set of defined modes for background activities which your app should specify to be allowed to run tasks in the background while the app is suspended (for example, playing audio, tracking location, etc.). You can read more about the subject in [App Programming Guide for iOS &mdash; Background Execution](https://developer.apple.com/library/content/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/BackgroundExecution/BackgroundExecution.html). The supported modes are listed the `UIBackgroundModes` section [here](https://developer.apple.com/library/content/documentation/General/Reference/InfoPlistKeyReference/Articles/iPhoneOSKeys.html#//apple_ref/doc/uid/TP40009252-SW10). 
-To be able to use the background mode you need a plugin that incorporates such logic in it (JavaScript code without the native support via a plugin will not execute when the app enters in the background) and registers the correct background mode for this. For example, one such implementation is the popular in the community Cordova Background Geolocation plugin. Another one is the Cordova BackgroundFetch plugin for iOS.   
+To be able to use the background mode you need a plugin that incorporates such logic in it (JavaScript code without the native support via a plugin will not execute when the app enters in the background) and registers the correct background mode for this. For example, one such implementation is the popular in the community Cordova Background Geolocation plugin. A similar one is the Cordova BackgroundFetch plugin for iOS.   
 
 On Android this can be done via a plugin that is registering a service implemented with native code. A popular option for Android in the community is the Cordova Background Plugin (while it may not be compatible with the App Store requirements for using background modes). 
 
@@ -50,6 +50,9 @@ Community plugins may not be compatible with the vendor stores and requirements 
 ## See Also
 
 * [App Programming Guide for iOS &mdash; Background Execution](https://developer.apple.com/library/content/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/BackgroundExecution/BackgroundExecution.html)
+* [UIBackgroundModes]https://developer.apple.com/library/content/documentation/General/Reference/InfoPlistKeyReference/Articles/iPhoneOSKeys.html#//apple_ref/doc/uid/TP40009252-SW10). 
 * [Cordova Events](https://cordova.apache.org/docs/en/latest/cordova/events/events.html)
+* [Requirements for Custom Plugins](http://docs.telerik.com/platform/appbuilder/cordova/using-plugins/using-custom-plugins/plugin-requirements)
+* [Import Custom Plugins](http://docs.telerik.com/platform/appbuilder/cordova/using-plugins/using-custom-plugins/add-custom-plugins)
 * [Push Notifications Plugin](http://plugins.telerik.com/cordova/plugin/pushnotification)
 * [Local Notifications Plugin](http://plugins.telerik.com/cordova/plugin/localnotification)
