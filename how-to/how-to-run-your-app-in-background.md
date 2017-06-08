@@ -17,8 +17,8 @@ pitsid:
   <tr>
     <td>Service</td>
     <td>
-		{{site.ab-s}} ({{site.ab}}), {{site.tp}} General
-	</td>
+	{{site.ab-s}} ({{site.ab}}), {{site.tp}} General
+    </td>
   </tr>
   <tr>
     <td>Mobile development type</td>
@@ -45,12 +45,12 @@ Even that the app is allowed to run in the background the OS may determine that 
 
 In many cases it may be sufficient to run your code using the application life-cycle events when the app is paused or resumed, or use push notifications or local notifications for the purpose. 
 
-Community plugins may not be compatible with the vendor stores and requirements for background execution. Consult the documentation and the purpose of the plugin beforehand. 
+Community plugins may not be compatible with the vendor stores and requirements for background execution. Consult the respective plugin and functionality documentation and the purpose of the plugin beforehand. 
 
 ## See Also
 
 * [App Programming Guide for iOS &mdash; Background Execution](https://developer.apple.com/library/content/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/BackgroundExecution/BackgroundExecution.html)
-* [UIBackgroundModes]https://developer.apple.com/library/content/documentation/General/Reference/InfoPlistKeyReference/Articles/iPhoneOSKeys.html#//apple_ref/doc/uid/TP40009252-SW10). 
+* [UIBackgroundModes](https://developer.apple.com/library/content/documentation/General/Reference/InfoPlistKeyReference/Articles/iPhoneOSKeys.html#//apple_ref/doc/uid/TP40009252-SW10)
 * [Cordova Events](https://cordova.apache.org/docs/en/latest/cordova/events/events.html)
 * [Requirements for Custom Plugins](http://docs.telerik.com/platform/appbuilder/cordova/using-plugins/using-custom-plugins/plugin-requirements)
 * [Import Custom Plugins](http://docs.telerik.com/platform/appbuilder/cordova/using-plugins/using-custom-plugins/add-custom-plugins)
