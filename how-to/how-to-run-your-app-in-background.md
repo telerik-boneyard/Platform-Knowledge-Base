@@ -49,7 +49,7 @@ Community plugins may not be compatible with the vendor stores and requirements 
 
 ## See Also
 
-*[App Programming Guide for iOS &mdash; Background Execution](https://developer.apple.com/library/content/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/BackgroundExecution/BackgroundExecution.html)/
-*[Cordova Events](https://cordova.apache.org/docs/en/latest/cordova/events/events.html)
-*[Push Notifications Plugin](http://plugins.telerik.com/cordova/plugin/pushnotification)
-*[Local Notifications Plugin](http://plugins.telerik.com/cordova/plugin/localnotification)
+* [App Programming Guide for iOS &mdash; Background Execution](https://developer.apple.com/library/content/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/BackgroundExecution/BackgroundExecution.html)
+* [Cordova Events](https://cordova.apache.org/docs/en/latest/cordova/events/events.html)
+* [Push Notifications Plugin](http://plugins.telerik.com/cordova/plugin/pushnotification)
+* [Local Notifications Plugin](http://plugins.telerik.com/cordova/plugin/localnotification)
