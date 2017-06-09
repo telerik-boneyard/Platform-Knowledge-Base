@@ -1,5 +1,5 @@
 ---
-title: iOS Push Notification Error \"DeviceTokenNotForTopic\"
+title: iOS Push Notification Error ""DeviceTokenNotForTopic""
 description: iOS devices cannot receive push notifications and DeviceTokenNotForTopic error is returned
 type: troubleshooting
 page_title: DeviceTokenNotForTopic iOS push notification error
