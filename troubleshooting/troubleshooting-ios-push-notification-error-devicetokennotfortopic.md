@@ -38,7 +38,7 @@ This error is returned from the Apple Push Notficiation service (APNs) when the 
 
 ## Solution 
 
-Check whether the Apple App ID of the provisioning profile with which the application is deployed to a device is matching the Apple App ID for which the server push SSL certificate is configured. For example, you have deployed the app with the provisioning profile for *com.mycompany.mypushapp* but on the server you have uploaded a push certificate for *com.mycompany.myusuallapp*. 
+Ensure that the Apple App ID of the provisioning profile with which the application is deployed to a device is matching the Apple App ID for which the server push SSL certificate is configured. For example, you have deployed the app with the provisioning profile for *com.mycompany.mypushapp* but on the server you have uploaded a push certificate for *com.mycompany.myusuallapp*. 
 
 ## See Also
 
