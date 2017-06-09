@@ -1,8 +1,8 @@
 ---
-title: IOS Push Notification Error "DeviceTokenNotForTopic"
-description: iOS devices cannot receive push notifications and the error "DeviceTokenNotForTopic" is returned
+title: "iOS Push Notification Error "DeviceTokenNotForTopic""
+description: iOS devices cannot receive push notifications and DeviceTokenNotForTopic error is returned
 type: troubleshooting
-page_title: "DeviceTokenNotForTopic" iOS push notification error
+page_title: DeviceTokenNotForTopic iOS push notification error
 slug: troubleshooting-ios-push-notification-error-devicetokennotfortopic 
 position: 
 tags: backendservices, ios, push-notifications
