@@ -35,6 +35,7 @@ Currently, this behavior is identified only on devices from the following manufa
 
 * Huawei
 * Xiaomi 
+* Asus
 
 ## Solution
 
@@ -52,10 +53,15 @@ You need to modify certain settings on your device.
 3. Locate your app in the list and enable "Autostart"
 4. Restart the device
 
+### Asus devices
+
+1. Locate the Auto-start Manager as noted [here](https://www.asus.com/support/FAQ/1011266/)
+2. Locate your app in the list and enable "Allow"
+
 ## Notes
 
  Currently, we have not identified a way to achieve this behavior programmatically from your application. You may consider to instruct your customers to enable the option on their devices if they fall under the above category.  
-	
+​	
 ## See Also
 
 * [Troubleshooting Push Notifications for Android](http://docs.telerik.com/platform/backend-services/javascript/push-notifications/troubleshooting/push-trb-android)
