@@ -32,7 +32,7 @@ You need to programmatically track the status and feedback for the sent push not
 
 The following steps illustrate how to check the status for a push notification and in case of failed notifications, examine the logged feedback information for them. 
  
-1. Request a push notification entry using the means explained in [Reading Push Notifications](http://docs.telerik.com/platform/backend-services/rest/administration-api/push-notifications/push-read). For example, you can fetch all notifications that failed to be sent to more than 0 devices using the following filter. 
+1. Request a push notification entry using the means explained in [Reading Push Notifications](https://docs.telerik.com/platform/backend-services/rest/administration-api/push-notifications/push-read). For example, you can fetch all notifications that failed to be sent to more than 0 devices using the following filter. 
 
 	```
 	X-Everlive-Filter: { "Feedback.Failed": { "$gt": 0}} 
@@ -69,20 +69,20 @@ The following steps illustrate how to check the status for a push notification a
 
 3. To get the information for the failed notification:
 	* Copy the Id of the item
-	* Read the logs for this Id as explained in [Reading Push Notifications Logs](http://docs.telerik.com/platform/backend-services/rest/administration-api/push-notifications/push-read-logs).
+	* Read the logs for this Id as explained in [Reading Push Notifications Logs](https://docs.telerik.com/platform/backend-services/rest/administration-api/push-notifications/push-read-logs).
 
-4. (Optional) Depending on the reason for the failed push notifications you can either troubleshoot and try to eliminate the reason for the failure or resend the notification to the failed devices as explained [here](http://docs.telerik.com/platform/backend-services/rest/administration-api/push-notifications/push-resend). 
+4. (Optional) Depending on the reason for the failed push notifications you can either troubleshoot and try to eliminate the reason for the failure or resend the notification to the failed devices as explained [here](https://docs.telerik.com/platform/backend-services/rest/administration-api/push-notifications/push-resend). 
 
 ## Notes
 
-You can read more information about the device platform types [here](http://docs.telerik.com/platform/backend-services/rest/push-notifications/push-object-fields).
+You can read more information about the device platform types [here](https://docs.telerik.com/platform/backend-services/rest/push-notifications/push-object-fields).
 
-You can read more information about the status field of a notification in the System set fields section [here](http://docs.telerik.com/platform/backend-services/rest/push-notifications/send-and-target/push-set-options#system-set-fields).
+You can read more information about the status field of a notification in the System set fields section [here](https://docs.telerik.com/platform/backend-services/rest/push-notifications/send-and-target/push-set-options#system-set-fields).
 
 ## See Also
 
-* [Introduction to Administration API for Push Notifications](http://docs.telerik.com/platform/backend-services/rest/administration-api/push-notifications/introduction)
-* [Troubleshooting Push Notifications](http://docs.telerik.com/platform/backend-services/rest/push-notifications/troubleshooting/introduction)
-* [Reading Push Notifications Logs](http://docs.telerik.com/platform/backend-services/rest/administration-api/push-notifications/push-read-logs)
-* [Reading Push Notifications](http://docs.telerik.com/platform/backend-services/rest/administration-api/push-notifications/push-read)
-* [Resending Push Notifications](http://docs.telerik.com/platform/backend-services/rest/administration-api/push-notifications/push-resend)
+* [Introduction to Administration API for Push Notifications](https://docs.telerik.com/platform/backend-services/rest/administration-api/push-notifications/introduction)
+* [Troubleshooting Push Notifications](https://docs.telerik.com/platform/backend-services/rest/push-notifications/troubleshooting/introduction)
+* [Reading Push Notifications Logs](https://docs.telerik.com/platform/backend-services/rest/administration-api/push-notifications/push-read-logs)
+* [Reading Push Notifications](https://docs.telerik.com/platform/backend-services/rest/administration-api/push-notifications/push-read)
+* [Resending Push Notifications](https://docs.telerik.com/platform/backend-services/rest/administration-api/push-notifications/push-resend)

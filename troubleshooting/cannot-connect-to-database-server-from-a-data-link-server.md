@@ -66,6 +66,6 @@ Ensure that the supplied connection string is in the correct format for the resp
 	`lnx15.example.com:5432;DatabaseName=ExampleDatabase;User=jsmith;Password=pa$$`
 	
 ## See Also
-* [Getting Started with Relational Data Connectors](http://docs.telerik.com/platform/backend-services/javascript/data-connectors/sql/data-connectors-getting-started)
+* [Getting Started with Relational Data Connectors](https://docs.telerik.com/platform/backend-services/javascript/data-connectors/sql/data-connectors-getting-started)
 * [Error Establishing a Connection to a {{site.dls}}]({% slug error-establishing-connection-to-a-data-link-server %})
 * [Error Accessing the {{site.dls}}]({% slug error-accessing-data-link-server %})

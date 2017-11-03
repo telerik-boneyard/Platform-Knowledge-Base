@@ -38,8 +38,8 @@ Hybrid application that is deployed on an iOS device does not show the content o
 
 ## Steps to Reproduce
 
-1. [Create](http://docs.telerik.com/platform/appbuilder/cordova/creating-your-app/creating-a-new-app) or open a Cordova application.
-1. [Change the target Cordova version](http://docs.telerik.com/platform/appbuilder/cordova/configuring-your-app/configure-target-framework) to 5.0.0 or later.
+1. [Create](https://docs.telerik.com/platform/appbuilder/cordova/creating-your-app/creating-a-new-app) or open a Cordova application.
+1. [Change the target Cordova version](https://docs.telerik.com/platform/appbuilder/cordova/configuring-your-app/configure-target-framework) to 5.0.0 or later.
 1. Include an `<iframe src=""></iframe>` tag to an HTML view.
 1. Deploy the app to an iOS device.
 
@@ -51,7 +51,7 @@ Cordova 5.0.0 (Cordova for iOS 4.0.1) incorporates the Cordova whitelisting syst
 
 To enable whitelisting in your iOS application and allow the URL of an iframe to be accessed by the app, complete the following steps:
 
-1. Open the **iOS Config.xml** file in your project, as described [here](http://docs.telerik.com/platform/appbuilder/cordova/configuring-your-app/edit-configuration).
+1. Open the **iOS Config.xml** file in your project, as described [here](https://docs.telerik.com/platform/appbuilder/cordova/configuring-your-app/edit-configuration).
 1. In that file, add the following code before the closing `</widget>` tag: 
 
  	```XML
@@ -78,4 +78,4 @@ Whitelisting all URLs is not recommended for production apps. You should allow o
 ## See Also
 * [Cordova Whitelist Guide](https://cordova.apache.org/docs/en/latest/guide/appdev/whitelist/)
 * [Cordova Whitelist Plugin](https://cordova.apache.org/docs/en/latest/reference/cordova-plugin-whitelist/)
-* [iframe not loading after upgrade to Cordova iOS 4.1.1 on Stackoverflow](http://stackoverflow.com/questions/37067342/iframe-not-loading-after-upgrade-to-cordova-ios-4-1-1)
+* [iframe not loading after upgrade to Cordova iOS 4.1.1 on Stackoverflow](https://stackoverflow.com/questions/37067342/iframe-not-loading-after-upgrade-to-cordova-ios-4-1-1)

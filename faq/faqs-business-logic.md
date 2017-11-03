@@ -68,14 +68,14 @@ More information is available in [this article]({% slug bl-id-requested-item %})
 
 ## Can I send a push notification when an item is created, updated, or deleted?
 
-Yes. Use the [Cloud Code SDK](http://docs.telerik.com/platform/backend-services/javascript/apireference/CloudCode/Everlive/Everlive) in the appropriate `before` or `after` event handler to send a push notification. 
+Yes. Use the [Cloud Code SDK](https://docs.telerik.com/platform/backend-services/javascript/apireference/CloudCode/Everlive/Everlive) in the appropriate `before` or `after` event handler to send a push notification. 
 
 More information is available in [this article](../../backend-services/javascript/push-notifications/send-and-target/push-send#using-cloud-code).
 
 ## See Also
 
-* [Getting Started with {{site.bl-data}}](http://docs.telerik.com/platform/backend-services/javascript/server-side-logic/cloud-code/cloud-code-for-data/cloud-code-for-data-getting-started)
-* [{{site.bl-data}} Events](http://docs.telerik.com/platform/backend-services/javascript/server-side-logic/cloud-code/cloud-code-for-data/cloud-code-for-data-data-events)
-* [Modifying Data Requests](http://docs.telerik.com/platform/backend-services/javascript/server-side-logic/cloud-code/cloud-code-for-data/cloud-code-for-data-modifying-requests)
-* [Using the JavaScript SDK](http://docs.telerik.com/platform/backend-services/javascript/server-side-logic/cloud-code/cloud-code-using-javascript-sdk)
-* [Getting Started with {{site.bl-func}}](http://docs.telerik.com/platform/backend-services/javascript/server-side-logic/cloud-code/cloud-functions/cloud-functions-getting-started)
+* [Getting Started with {{site.bl-data}}](https://docs.telerik.com/platform/backend-services/javascript/server-side-logic/cloud-code/cloud-code-for-data/cloud-code-for-data-getting-started)
+* [{{site.bl-data}} Events](https://docs.telerik.com/platform/backend-services/javascript/server-side-logic/cloud-code/cloud-code-for-data/cloud-code-for-data-data-events)
+* [Modifying Data Requests](https://docs.telerik.com/platform/backend-services/javascript/server-side-logic/cloud-code/cloud-code-for-data/cloud-code-for-data-modifying-requests)
+* [Using the JavaScript SDK](https://docs.telerik.com/platform/backend-services/javascript/server-side-logic/cloud-code/cloud-code-using-javascript-sdk)
+* [Getting Started with {{site.bl-func}}](https://docs.telerik.com/platform/backend-services/javascript/server-side-logic/cloud-code/cloud-functions/cloud-functions-getting-started)

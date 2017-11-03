@@ -41,5 +41,5 @@ All newly created apps contain the required images by default but apps created w
 ## Solution
 Provide the missing iPad Pro icon. Choose one of the following approaches:
 
-* [Manually upload the missing 167x167 icon.](http://docs.telerik.com/platform/appbuilder/cordova/configuring-your-app/assets/configure-icons-splashscreens)
-* [Re-generate all icons at once from a single image source.](http://docs.telerik.com/platform/appbuilder/cordova/configuring-your-app/assets/generate-icons-splashscreens)
+* [Manually upload the missing 167x167 icon.](https://docs.telerik.com/platform/appbuilder/cordova/configuring-your-app/assets/configure-icons-splashscreens)
+* [Re-generate all icons at once from a single image source.](https://docs.telerik.com/platform/appbuilder/cordova/configuring-your-app/assets/generate-icons-splashscreens)

@@ -49,5 +49,5 @@ Display the animation in the first view of the app:
 
 ## See Also
 
-* [Configure the Icons and Splash Screens Using Multiple Image Sources](http://docs.telerik.com/platform/appbuilder/cordova/configuring-your-app/assets/configure-icons-splashscreens)
+* [Configure the Icons and Splash Screens Using Multiple Image Sources](https://docs.telerik.com/platform/appbuilder/cordova/configuring-your-app/assets/configure-icons-splashscreens)
 * [Cordova Splash Screen Plugin](https://cordova.apache.org/docs/en/latest/reference/cordova-plugin-splashscreen/)

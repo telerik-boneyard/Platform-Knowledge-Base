@@ -53,7 +53,7 @@ You can manually add the complete Kendo UI libraries to your project and referen
 To do this, follow the steps below for the library of your choice:
 
 * Download and reference **Kendo UI Core**.
-	1. Download the Kendo UI Core archive from <a href="http://www.telerik.com/download/kendo-ui-core" title="Kendo UI Core" target="_blank">here</a>. 
+	1. Download the Kendo UI Core archive from <a href="https://www.telerik.com/download/kendo-ui-core" title="Kendo UI Core" target="_blank">here</a>. 
 	2. From the `js` and `styles` folders of the Kendo UI archive copy the following files to your project:
 		* `kendo.ui.core.min.js`
 		* `kendo.common.min.css`
@@ -73,7 +73,7 @@ To do this, follow the steps below for the library of your choice:
 	```
 
 * Download and reference **Kendo UI Professional**.
-	1. Log into Your Account at <a href="http://www.telerik.com" target="_blank" title="Telerik">http://www.telerik.com</a>.
+	1. Log into Your Account at <a href="https://www.telerik.com" target="_blank" title="Telerik">https://www.telerik.com</a>.
 	2. Click **Products & Subscriptions** -> **DevCraft Complete/Ultimate**.
 	3. Click **Download Installer and other resources**.
 	4. Find **Kendo UI Professional** in the list and click **Browse all product files**.

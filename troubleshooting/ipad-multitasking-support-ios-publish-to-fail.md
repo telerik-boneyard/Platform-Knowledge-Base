@@ -40,7 +40,7 @@ This error occurs when your app supports [iPad Multitasking](https://support.app
 Based on your app requirements, you can choose one of the following approaches:
 
 * If you want to support iPad Multitasking, you have to enable all device orientations from the **General** tab in the **Project Properties** dialog.
-* If you do not want to support iPad Multitasking, you have to [edit](http://docs.telerik.com/platform/appbuilder/cordova/configuring-your-app/edit-configuration) your `Info.plist` file and set the `UIRequiresFullScreen` key to true. For example: `<key>UIRequiresFullScreen</key><true/>`.
+* If you do not want to support iPad Multitasking, you have to [edit](https://docs.telerik.com/platform/appbuilder/cordova/configuring-your-app/edit-configuration) your `Info.plist` file and set the `UIRequiresFullScreen` key to true. For example: `<key>UIRequiresFullScreen</key><true/>`.
 
 ## See Also
 * [Adopting Multitasking On iPad](https://developer.apple.com/library/ios/documentation/WindowsViews/Conceptual/AdoptingMultitaskingOniPad/)

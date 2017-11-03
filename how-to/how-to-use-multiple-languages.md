@@ -31,7 +31,7 @@ pitsid:
 
 By adding a support for more languages than the default language of your app you can make it usable for more users. 
 
-The {{site.sb-s}} service in {{site.tp}} already provides a way to do so in the generated code for newly-created apps. The procedure for doing so in a project generated via the {{site.sb-s}} service is explained in [Implement Multi-Lingual Support](http://docs.telerik.com/platform/screenbuilder/troubleshooting/localization). 
+The {{site.sb-s}} service in {{site.tp}} already provides a way to do so in the generated code for newly-created apps. The procedure for doing so in a project generated via the {{site.sb-s}} service is explained in [Implement Multi-Lingual Support](https://docs.telerik.com/platform/screenbuilder/troubleshooting/localization). 
 
 Refer to the solution below if you would like to update your existing app with internationalization support and/or use an approach outside of the {{site.sb-s}} service. 
  
@@ -100,10 +100,10 @@ Consult the steps below for an example approach how to implement an internationa
 
 ## Notes 
 
-You can also use the methods of the [Cordova Globalization](http://docs.telerik.com/platform/appbuilder/cordova/using-plugins/using-core-plugins/using-core-plugins) Core Plugin to detect the device culture. According to the detected device language set programmatically which set of strings to be used in your application.  
+You can also use the methods of the [Cordova Globalization](https://docs.telerik.com/platform/appbuilder/cordova/using-plugins/using-core-plugins/using-core-plugins) Core Plugin to detect the device culture. According to the detected device language set programmatically which set of strings to be used in your application.  
 
 ## See Also
 
-* [Implement Multi-Lingual Support](http://docs.telerik.com/platform/screenbuilder/troubleshooting/localization)
+* [Implement Multi-Lingual Support](https://docs.telerik.com/platform/screenbuilder/troubleshooting/localization)
 * [Cordova Globalization Plugin](https://cordova.apache.org/docs/en/latest/reference/cordova-plugin-globalization/)
-* [Configure the Core Plugins](http://docs.telerik.com/platform/appbuilder/cordova/using-plugins/using-core-plugins/enable-disable-core)
+* [Configure the Core Plugins](https://docs.telerik.com/platform/appbuilder/cordova/using-plugins/using-core-plugins/enable-disable-core)

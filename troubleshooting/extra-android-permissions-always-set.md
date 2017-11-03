@@ -38,7 +38,7 @@ Each plugin injects its required permissions in the `AndroidManifest.xml` file d
 
 ## Solution
 1. In order to reduce the number of permissions, disable any plugins that you are not using.
-For example, if the app does not read, delete or add contacts, you should disable the core Contacts plugin. To do so, follow the steps to [manage Core plugins](http://docs.telerik.com/platform/appbuilder/cordova/using-plugins/using-core-plugins/enable-disable-core).
+For example, if the app does not read, delete or add contacts, you should disable the core Contacts plugin. To do so, follow the steps to [manage Core plugins](https://docs.telerik.com/platform/appbuilder/cordova/using-plugins/using-core-plugins/enable-disable-core).
 
 2. In order to check which Cordova plugins are affecting your app, examine the `plugin.xml` for each enabled/included plugin and look for any <uses-permission> modifications.
 
@@ -72,5 +72,5 @@ For example, if the app does not read, delete or add contacts, you should disabl
 Apart from the permissions coming from plugins, make sure that there are no permissions set in the project properties for Android. Look at `.abproject` if some permissions are not set (this can also be viewed in the project's **Properties** &#8594; **Android** &#8594; **Permissions**).
 
 ## See Also
-- [Android Permissions Explained](http://developer.telerik.com/featured/android-permissions-explained/)
-- [Edit Configuration Files](http://docs.telerik.com/platform/appbuilder/cordova/configuring-your-app/edit-configuration)
+- [Android Permissions Explained](https://developer.telerik.com/featured/android-permissions-explained/)
+- [Edit Configuration Files](https://docs.telerik.com/platform/appbuilder/cordova/configuring-your-app/edit-configuration)

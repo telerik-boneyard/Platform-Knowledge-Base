@@ -34,16 +34,16 @@ pitsid:
 When you include the Analytics plugin to your app, you might experience a number of issues. The app might become unresponsive or crash on start-up.
 
 ## Possible Causes
-1. **The app crashes on launch because two Analytics monitors are created simultaneously**</br> When you have enabled the automatic exception and app feature tracking and additionally use the [Analytics JavaScript API](http://docs.telerik.com/platform/analytics/integration/monitor/platform/javascript) to create a separate monitor to track exceptions manually.
+1. **The app crashes on launch because two Analytics monitors are created simultaneously**</br> When you have enabled the automatic exception and app feature tracking and additionally use the [Analytics JavaScript API](https://docs.telerik.com/platform/analytics/integration/monitor/platform/javascript) to create a separate monitor to track exceptions manually.
 1. **The app hangs because you are using an older version of Kendo**</br> When you are using an outdated version of Kendo UI (2013.x.x and older), the Analytics monitor cannot find a proper view on which to attach.
 
 ## Solution
 1. Use either the automatic tracking feature or the JavaScript API, but not both at the same time. 
-	* To disable the automatic tracking, you should [modify the plugin variables](http://docs.telerik.com/platform/appbuilder/cordova/using-plugins/set-plugin-variable) of the Analytics plugin by setting the `AUTO_TRACK_EXCEPTIONS` and `AUTO_TRACK_KENDO_EVENTS` options to **False**.  
-1. [Update the Kendo UI framework](http://docs.telerik.com/platform/appbuilder/cordova/supported-frameworks/update-project-libraries#update-kendo-ui-core-or-kendo-ui-professional) to a more recent version (2015.x.x or newer).
+	* To disable the automatic tracking, you should [modify the plugin variables](https://docs.telerik.com/platform/appbuilder/cordova/using-plugins/set-plugin-variable) of the Analytics plugin by setting the `AUTO_TRACK_EXCEPTIONS` and `AUTO_TRACK_KENDO_EVENTS` options to **False**.  
+1. [Update the Kendo UI framework](https://docs.telerik.com/platform/appbuilder/cordova/supported-frameworks/update-project-libraries#update-kendo-ui-core-or-kendo-ui-professional) to a more recent version (2015.x.x or newer).
 
 ## Notes
 [Kendo UI Professional Is Not Available in the Package Manager]({% slug no-kendoui-professional-in-package-manager %})
 
 ## See Also
-[1-click Analytics Integration in Hybrid Apps](http://developer.telerik.com/featured/1-click-analytics-integration-hybrid-apps/)
+[1-click Analytics Integration in Hybrid Apps](https://developer.telerik.com/featured/1-click-analytics-integration-hybrid-apps/)

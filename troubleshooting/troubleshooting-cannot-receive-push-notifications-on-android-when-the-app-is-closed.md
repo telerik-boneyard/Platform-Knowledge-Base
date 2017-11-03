@@ -64,4 +64,4 @@ You need to modify certain settings on your device.
 ​	
 ## See Also
 
-* [Troubleshooting Push Notifications for Android](http://docs.telerik.com/platform/backend-services/javascript/push-notifications/troubleshooting/push-trb-android)
+* [Troubleshooting Push Notifications for Android](https://docs.telerik.com/platform/backend-services/javascript/push-notifications/troubleshooting/push-trb-android)

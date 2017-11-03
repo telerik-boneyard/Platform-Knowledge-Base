@@ -47,7 +47,7 @@ To delete some or all {{site.bs-bl}} logs:
 > After deleting {{site.bs-bl}} logs, allow a few hours for the new database quota usage to be measured and updated in your subscription details.
 
 </br>
-> You can also delete {{site.bs-bl}} logs [programmatically](http://docs.telerik.com/platform/backend-services/rest/server-side-logic/cloud-code/debugging/managing-cloud-code-logs#delete-cloud-code-logs). This allows you to select which logs to delete using elaborate filtering criteria such as date, function name, result type, and so on.
+> You can also delete {{site.bs-bl}} logs [programmatically](https://docs.telerik.com/platform/backend-services/rest/server-side-logic/cloud-code/debugging/managing-cloud-code-logs#delete-cloud-code-logs). This allows you to select which logs to delete using elaborate filtering criteria such as date, function name, result type, and so on.
 
 You may also want to consider disabling the {{site.bs-bl}} logs if your app is in production or if you do not longer need to keep them.
 
@@ -60,5 +60,5 @@ To disable {{site.bs-bl}} logs:
 
 ## See Also
 
-* [View your {{site.tp}} Subscription](http://docs.telerik.com/platform/help/licensing/view-subscription)
-* [Managing {{site.bs-bl}} Logs Programmatically](http://docs.telerik.com/platform/backend-services/rest/server-side-logic/cloud-code/debugging/managing-cloud-code-logs)
+* [View your {{site.tp}} Subscription](https://docs.telerik.com/platform/help/licensing/view-subscription)
+* [Managing {{site.bs-bl}} Logs Programmatically](https://docs.telerik.com/platform/backend-services/rest/server-side-logic/cloud-code/debugging/managing-cloud-code-logs)

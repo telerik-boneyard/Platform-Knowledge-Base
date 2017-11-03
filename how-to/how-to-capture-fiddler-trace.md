@@ -39,4 +39,4 @@ This will produce a SAZ file, which you will be able to archive and share with t
 If the produced Fiddler log doesn't contain HTTPS traffic records, [make sure that the Fiddler Root certificate is trusted on your machine]({% slug trust-fiddler-root-cert %}).
 
 ## See Also
-* [Fiddler Documentation](http://docs.telerik.com/fiddler/configure-fiddler/tasks/configurefiddler)
+* [Fiddler Documentation](https://docs.telerik.com/fiddler/configure-fiddler/tasks/configurefiddler)

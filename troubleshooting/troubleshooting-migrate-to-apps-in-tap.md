@@ -47,7 +47,7 @@ To restore the projects in your {{site.tp}} account, you will need to migrate th
 to:<br>
 `https://platform.telerik.com/#migration-wizard`<br>
 This will open the migration wizard for your projects.
-1. Next, follow the steps from this [article](http://docs.telerik.com/platform/help/app-migration), in order to check what the migration wizard do and understand how to relate your existing projects to apps.
+1. Next, follow the steps from this [article](https://docs.telerik.com/platform/help/app-migration), in order to check what the migration wizard do and understand how to relate your existing projects to apps.
 1. After your projects are migrated, you will be able to access them again.
 
 ## Notes
@@ -56,4 +56,4 @@ This functionality will be available for a short period of time, so that you can
 
 ## See Also
 <!-- Optional -->
-[New App Structure in {{site.tp}}](http://docs.telerik.com/platform/help/getting-started/introduction)
+[New App Structure in {{site.tp}}](https://docs.telerik.com/platform/help/getting-started/introduction)

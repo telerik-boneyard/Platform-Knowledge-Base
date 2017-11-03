@@ -31,7 +31,7 @@ Frequently you need to set programmatically the role of a user account based on 
 
 You can add such logic to the business logic layer - for example you may expose a Cloud Function available to administrattors only or after a user account is created - check for certain conditions and update the role.
 
-Updating a user role requires the use of a [Master Key]({http://docs.telerik.com/platform/backend-services/javascript/security/security-master-key-auth}) - it is strongly recommended not to include your Master Key inside your app code - therefore a perfect solution is to use Cloud Code as the code stays on {{site.tp}} server. 
+Updating a user role requires the use of a [Master Key]({https://docs.telerik.com/platform/backend-services/javascript/security/security-master-key-auth}) - it is strongly recommended not to include your Master Key inside your app code - therefore a perfect solution is to use Cloud Code as the code stays on {{site.tp}} server. 
 
 Here is an example using the JavaScript SDK in the Cloud Code to change the user role:
 
@@ -66,14 +66,14 @@ Here is an example using the JavaScript SDK in the Cloud Code to change the user
 ```
 
 ## Notes
-If you decide to go with a Cloud function, you can [set permisions on who can execute {{site.bl-func}}]({http://docs.telerik.com/platform/backend-services/javascript/server-side-logic/cloud-code/cloud-functions/cloud-functions-security}) in order to achieve better security. For example, you can allow only users with an "Administrator" role to be able to invoke the Cloud function.
+If you decide to go with a Cloud function, you can [set permisions on who can execute {{site.bl-func}}]({https://docs.telerik.com/platform/backend-services/javascript/server-side-logic/cloud-code/cloud-functions/cloud-functions-security}) in order to achieve better security. For example, you can allow only users with an "Administrator" role to be able to invoke the Cloud function.
  
 ## See Also
 
-* [Change the user role manually from {{site.tp}} portal]({http://docs.telerik.com/platform/backend-services/javascript/access-control/roles/roles-manage-portal})
-* [{{site.bl-data}} Events](http://docs.telerik.com/platform/backend-services/javascript/server-side-logic/cloud-code/cloud-code-for-data/cloud-code-for-data-data-events)
-* [Modifying Data Requests](http://docs.telerik.com/platform/backend-services/javascript/server-side-logic/cloud-code/cloud-code-for-data/cloud-code-for-data-modifying-requests)
-* [Introduction to Querying](http://docs.telerik.com/platform/backend-services/rest/queries/introduction)
+* [Change the user role manually from {{site.tp}} portal]({https://docs.telerik.com/platform/backend-services/javascript/access-control/roles/roles-manage-portal})
+* [{{site.bl-data}} Events](https://docs.telerik.com/platform/backend-services/javascript/server-side-logic/cloud-code/cloud-code-for-data/cloud-code-for-data-data-events)
+* [Modifying Data Requests](https://docs.telerik.com/platform/backend-services/javascript/server-side-logic/cloud-code/cloud-code-for-data/cloud-code-for-data-modifying-requests)
+* [Introduction to Querying](https://docs.telerik.com/platform/backend-services/rest/queries/introduction)
 * [How to Determine the Id of the Requested Item]({% slug bl-id-requested-item %})
 * [How to Get the Result Status of the Request]({% slug bl-get-request-result %})
 * [How to Get the Body of the Incoming Request]({% slug bl-get-request-body %})

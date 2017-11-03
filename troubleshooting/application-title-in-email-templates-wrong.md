@@ -29,7 +29,7 @@ The {% raw %}{{`Application.Title`}}{% endraw %} takes its name after the initia
 ## Solution
 You can change the name programmatically:
 
-- Locate the app in Telerik Platform and then obtain its App ID and Master Key as explained [here](http://docs.telerik.com/platform/backend-services/javascript/security/security-keys-get)
+- Locate the app in Telerik Platform and then obtain its App ID and Master Key as explained [here](https://docs.telerik.com/platform/backend-services/javascript/security/security-keys-get)
 - Send the following request to change the backend project title of your app and thus influence the {% raw %}{{`Application.Title`}}{% endraw %}. You may use a simple HTTP tool like Postman, Fiddler, cURL, etc. to send the request.  Replace the placeholders for the actual App Id and Master Key values:
 
 ```HTTP
@@ -46,7 +46,7 @@ Body:
 The backend app `Name` and `Title` should now be changed.
 
 ## See Also
-- [Operations with Backend Services Projects](http://docs.telerik.com/platform/backend-services/rest/administration-api/projects/managing-projects)
-- [Using Placeholders in Email Templates](http://docs.telerik.com/platform/backend-services/javascript/email-templates/email-notifications-use-placeholders)
-- [Sending Email from Cloud Code](http://docs.telerik.com/platform/backend-services/javascript/email-templates/email-notifications-send-cloud-code)
-- [Managing Email Templates in the Portal](http://docs.telerik.com/platform/backend-services/javascript/email-templates/email-notifications-manage-templates-portal)
+- [Operations with Backend Services Projects](https://docs.telerik.com/platform/backend-services/rest/administration-api/projects/managing-projects)
+- [Using Placeholders in Email Templates](https://docs.telerik.com/platform/backend-services/javascript/email-templates/email-notifications-use-placeholders)
+- [Sending Email from Cloud Code](https://docs.telerik.com/platform/backend-services/javascript/email-templates/email-notifications-send-cloud-code)
+- [Managing Email Templates in the Portal](https://docs.telerik.com/platform/backend-services/javascript/email-templates/email-notifications-manage-templates-portal)
