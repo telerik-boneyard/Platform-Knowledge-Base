@@ -61,4 +61,4 @@ Even though modified internally, the version code will not increase too quickly 
 
 With the current convention and the internal modification, when you increase your version code by one, your actual version code will be increased by ten. For example, when you enter 16, the version code of the apk becomes 162. The next time you need to increase this, you can enter 17 and the version code will become 172.
 
-If you follow the [standards for versioning](http://developer.android.com/tools/publishing/versioning.html) your app, you will be able to use 214,748,364 numbers for version code.
+If you follow the [standards for versioning](https://developer.android.com/tools/publishing/versioning.html) your app, you will be able to use 214,748,364 numbers for version code.

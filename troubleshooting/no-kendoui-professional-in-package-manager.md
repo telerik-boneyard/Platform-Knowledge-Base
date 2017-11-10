@@ -41,7 +41,7 @@ You can manually add the files to your project and reference them.
 
 To do this:
 
-1. Log into Your Account at <a href="http://www.telerik.com" target="_blank" title="Telerik">http://www.telerik.com</a>.
+1. Log into Your Account at <a href="https://www.telerik.com" target="_blank" title="Telerik">https://www.telerik.com</a>.
 2. Click **Products & Subscriptions** -> **DevCraft Complete/Ultimate**.
 3. Click **Download Installer and other resources**.
 4. Find **Kendo UI Professional** in the list and click **Browse all product files**.

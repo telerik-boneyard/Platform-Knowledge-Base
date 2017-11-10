@@ -42,5 +42,5 @@ Ensure that the Apple App ID of the provisioning profile with which the applicat
 
 ## See Also
 
-* [Troubleshooting Push Notifications](http://docs.telerik.com/platform/backend-services/javascript/push-notifications/troubleshooting/introduction)
-* [Troubleshooting Push Notifications for iOS](http://docs.telerik.com/platform/backend-services/javascript/push-notifications/troubleshooting/push-trb-ios)
+* [Troubleshooting Push Notifications](https://docs.telerik.com/platform/backend-services/javascript/push-notifications/troubleshooting/introduction)
+* [Troubleshooting Push Notifications for iOS](https://docs.telerik.com/platform/backend-services/javascript/push-notifications/troubleshooting/push-trb-ios)

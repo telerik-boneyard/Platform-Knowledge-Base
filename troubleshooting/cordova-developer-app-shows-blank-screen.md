@@ -41,4 +41,4 @@ The cause of the issue is still under investigation.
 To fix this, you need to uninstall both the {{site.tp-app}} and {{site.ab-app}} and then install them again from the App Store.
 
 ## See Also
-[Download and Install the Companion Apps](http://docs.telerik.com/platform/appbuilder/development-tools/running-appbuilder/running-the-companion/downloading-and-installing-ca)
+[Download and Install the Companion Apps](https://docs.telerik.com/platform/appbuilder/development-tools/running-appbuilder/running-the-companion/downloading-and-installing-ca)

@@ -57,14 +57,14 @@ You have to add the usage description text by setting a plugin variable for each
 the given device API. See the [Notes](#notes) section if a plugin doesn't have a dedicated variable.
 
 1. Locate the plugins your app is using and that may require access to the camera, photo library, contacts, etc.
-2. Set the dedicated plugin variable as explained [here](http://docs.telerik.com/platform/appbuilder/cordova/using-plugins/set-plugin-variable)
+2. Set the dedicated plugin variable as explained [here](https://docs.telerik.com/platform/appbuilder/cordova/using-plugins/set-plugin-variable)
 3. Remove any manually added description strings for the same purpose (if any) from the `Info.plist` file
 4. Re-build the app
 5. Publish again the app
 
 ## Notes
 
-In case a plugin which you are using in your app does not have a dedicated variable (and you are receiving the error), consider adding the key value pair to the `info.plist` manually as explained [here](http://docs.telerik.com/platform/appbuilder/cordova/configuring-your-app/edit-configuration). 
+In case a plugin which you are using in your app does not have a dedicated variable (and you are receiving the error), consider adding the key value pair to the `info.plist` manually as explained [here](https://docs.telerik.com/platform/appbuilder/cordova/configuring-your-app/edit-configuration). 
 
 Example:
 
@@ -84,5 +84,5 @@ Example:
 
 ## See Also
 
-* [Set Plugin Variables](http://docs.telerik.com/platform/appbuilder/cordova/using-plugins/set-plugin-variable)
+* [Set Plugin Variables](https://docs.telerik.com/platform/appbuilder/cordova/using-plugins/set-plugin-variable)
 * [Expected App Behaviors](https://developer.apple.com/library/content/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/ExpectedAppBehaviors/ExpectedAppBehaviors.html#//apple_ref/doc/uid/TP40007072-CH3-SW6) 

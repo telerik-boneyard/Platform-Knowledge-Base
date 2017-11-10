@@ -199,7 +199,7 @@ The main restrictions are:
 - With the exception of "read single item" operations, you can only filter data coming from the content type that you are making the request to. The data from the related content type is returned in its entirety.<br \>Consider the following 2 scenarios:<br \>**Normalized data** You have a pair of content types: "Movie" and "Actor" and each movie record contains a relation to the "Actor" content type for each member of the cast. The restriction in this case will mean that you'll be able to filter for movies containing "operation" in their name but not for movies in which actors born 1970 are starring.<br \>**Denormalized data**
 If we used the embedded data model (all actor data was a part of the "Movie" content type) there would be no restrictions to filtering on any movie or actor field.
 - Result item count is restricted to 50 items.<br \>Because of this, you are advised to be as specific as possible when composing queries and let the server do the filtering instead of reading all data and filtering it on the device.
-- Go to the [Telerik Platform documentation](http://docs.telerik.com/platform/backend-services/javascript/data/relations/relations-limitations) to see the full list of restrictions.
+- Go to the [Telerik Platform documentation](https://docs.telerik.com/platform/backend-services/javascript/data/relations/relations-limitations) to see the full list of restrictions.
 
 
 #### Schema Design in Action: Forum Posts Example
@@ -298,4 +298,4 @@ In some way, NoSQL database (schema-less) may even be more design intensive that
 
 ## See Also
 * [Thinking in Documents](https://www.mongodb.com/blog/post/thinking-documents-part-1?jmp=docs&_ga=1.212390487.279958290.1463566984)
-* [Telerik Platform Backend Services Data](http://docs.telerik.com/platform/backend-services/javascript/data/introduction)
+* [Telerik Platform Backend Services Data](https://docs.telerik.com/platform/backend-services/javascript/data/introduction)

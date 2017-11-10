@@ -47,5 +47,5 @@ This error is returned from the Telerik Platform JavaScript SDK when an initial 
 
 
 ## See Also
-* [Troubleshooting Push Notifications](http://docs.telerik.com/platform/backend-services/javascript/push-notifications/troubleshooting/introduction)
-* [Initializing and Registering a Device](http://docs.telerik.com/platform/backend-services/javascript/push-notifications/push-initialize-register#initializing-and-registering-a-device)
+* [Troubleshooting Push Notifications](https://docs.telerik.com/platform/backend-services/javascript/push-notifications/troubleshooting/introduction)
+* [Initializing and Registering a Device](https://docs.telerik.com/platform/backend-services/javascript/push-notifications/push-initialize-register#initializing-and-registering-a-device)

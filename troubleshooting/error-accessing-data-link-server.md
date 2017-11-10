@@ -44,6 +44,6 @@ Ensure that the following conditions are met:
 - The address and the port on which the {{site.dls}} is listening are not blocked by a firewall.
 
 ## See Also
-* [Getting Started with Relational Data Connectors](http://docs.telerik.com/platform/backend-services/javascript/data-connectors/sql/data-connectors-getting-started)
+* [Getting Started with Relational Data Connectors](https://docs.telerik.com/platform/backend-services/javascript/data-connectors/sql/data-connectors-getting-started)
 * [Cannot connect to the database server from the {{site.dls}}]({% slug cannot-connect-to-database-server-from-a-data-link-server %})
 * [Error Establishing a Connection to a {{site.dls}}]({% slug error-establishing-connection-to-a-data-link-server %})

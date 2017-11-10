@@ -58,4 +58,4 @@ Check the type of your Android API key:
   1. Test your setting by sending a push notification.
 
 ## See Also
-* [Troubleshooting Push  Notifications](http://docs.telerik.com/platform/backend-services/javascript/push-notifications/troubleshooting/push-trb-all.html)
+* [Troubleshooting Push  Notifications](https://docs.telerik.com/platform/backend-services/javascript/push-notifications/troubleshooting/push-trb-all.html)

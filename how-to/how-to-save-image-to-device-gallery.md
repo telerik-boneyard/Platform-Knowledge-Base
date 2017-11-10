@@ -35,7 +35,7 @@ When your app downloads an image on the user device, the image does not appear i
 ## Solution
 You can use a custom plugin to save the image in the device photo gallery. One such plugin is [SaveImage](https://github.com/quiply/SaveImage). To use this plugin in your app, follow the steps below:
 
-1. [Import the plugin in your {{site.ab}} project](http://docs.telerik.com/platform/appbuilder/cordova/using-plugins/using-custom-plugins/add-custom-plugins).
+1. [Import the plugin in your {{site.ab}} project](https://docs.telerik.com/platform/appbuilder/cordova/using-plugins/using-custom-plugins/add-custom-plugins).
 2. Download your image, using [the File Transfer core plugin](https://cordova.apache.org/docs/en/latest/reference/cordova-plugin-file-transfer/).
 3. Use the `saveImageToGallery` method of the **SaveImage** plugin to copy the image to the device photo gallery.
 

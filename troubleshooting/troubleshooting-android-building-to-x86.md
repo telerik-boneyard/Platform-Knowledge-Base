@@ -29,7 +29,7 @@ pitsid:
 
 ## Description
 
-{{site.tp}} applications with plugins that have native code, such as [Crosswalk](http://plugins.telerik.com/cordova/plugin/crosswalk), [Couchbase-Lite](http://plugins.telerik.com/cordova/plugin/couchbase-lite) and others, cannot be deployed on Android devices and emulators that use **x86 CPU architecture**.
+{{site.tp}} applications with plugins that have native code, such as [Crosswalk](https://plugins.telerik.com/cordova/plugin/crosswalk), [Couchbase-Lite](https://plugins.telerik.com/cordova/plugin/couchbase-lite) and others, cannot be deployed on Android devices and emulators that use **x86 CPU architecture**.
 
 ## Cause
 
@@ -42,7 +42,7 @@ At this stage {{site.ab}} produces only **ARMv7a** versions of the built applica
 ## Suggested Workarounds
 
 1. [Download the Archs Cordova plguin from GitHub as a ZIP file.](https://github.com/PlatformSupport/Archs)
-1. [Import it as a custom plugin to your project.](http://docs.telerik.com/platform/appbuilder/cordova/using-plugins/using-custom-plugins/add-custom-plugins)
+1. [Import it as a custom plugin to your project.](https://docs.telerik.com/platform/appbuilder/cordova/using-plugins/using-custom-plugins/add-custom-plugins)
 1. Rebuild the application.
 
 Now you should be able to deploy your project to Android devices and emulators which use x86 CPU ABI.

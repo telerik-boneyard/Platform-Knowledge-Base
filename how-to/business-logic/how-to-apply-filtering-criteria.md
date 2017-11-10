@@ -70,10 +70,10 @@ if(request.filterExpression && Object.keys(request.filterExpression).length > 0)
 
 ## See Also
 
-* [Getting Started with {{site.bl-data}}](http://docs.telerik.com/platform/backend-services/javascript/server-side-logic/cloud-code/cloud-code-for-data/cloud-code-for-data-getting-started)
-* [{{site.bl-data}} Events](http://docs.telerik.com/platform/backend-services/javascript/server-side-logic/cloud-code/cloud-code-for-data/cloud-code-for-data-data-events)
-* [Modifying Data Requests](http://docs.telerik.com/platform/backend-services/javascript/server-side-logic/cloud-code/cloud-code-for-data/cloud-code-for-data-modifying-requests)
-* [Introduction to Querying](http://docs.telerik.com/platform/backend-services/rest/queries/introduction)
+* [Getting Started with {{site.bl-data}}](https://docs.telerik.com/platform/backend-services/javascript/server-side-logic/cloud-code/cloud-code-for-data/cloud-code-for-data-getting-started)
+* [{{site.bl-data}} Events](https://docs.telerik.com/platform/backend-services/javascript/server-side-logic/cloud-code/cloud-code-for-data/cloud-code-for-data-data-events)
+* [Modifying Data Requests](https://docs.telerik.com/platform/backend-services/javascript/server-side-logic/cloud-code/cloud-code-for-data/cloud-code-for-data-modifying-requests)
+* [Introduction to Querying](https://docs.telerik.com/platform/backend-services/rest/queries/introduction)
 * [How to Determine the Id of the Requested Item]({% slug bl-id-requested-item %})
 * [How to Get the Result Status of the Request]({% slug bl-get-request-result %})
 * [How to Get the Body of the Incoming Request]({% slug bl-get-request-body %})

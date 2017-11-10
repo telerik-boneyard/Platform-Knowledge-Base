@@ -37,7 +37,7 @@ Opening a PDF in a hybrid app is possible out of the box only on iOS devices. Fo
     <script type="text/javascript" charset="utf-8" src="scripts/pdf.js/pdf.js"></script>
     <script type="text/javascript" charset="utf-8" src="scripts/pdf.js/pdf.worker.js"></script>
 	```
-5. [Enable the File core plugin](http://docs.telerik.com/platform/appbuilder/cordova/using-plugins/using-core-plugins/enable-disable-core) in your app.
+5. [Enable the File core plugin](https://docs.telerik.com/platform/appbuilder/cordova/using-plugins/using-core-plugins/enable-disable-core) in your app.
 6. (*Windows Phone only*) Explicitly set the path to the `pdf.worker.js` file in your code:
 
 	```

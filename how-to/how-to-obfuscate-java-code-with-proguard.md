@@ -79,14 +79,14 @@ Application packages cannot be completely secured from reverse-engineering. Inst
 	    }
 	}
 	```
-6. The last step is to archive the folder containing those files and [import it to your app as a custom plugin](http://docs.telerik.com/platform/appbuilder/cordova/using-plugins/using-custom-plugins/add-custom-plugins).
+6. The last step is to archive the folder containing those files and [import it to your app as a custom plugin](https://docs.telerik.com/platform/appbuilder/cordova/using-plugins/using-custom-plugins/add-custom-plugins).
 
 ## Notes
 Obfuscation with ProGuard in {{site.ab}} can also be achieved by modifying an already existing custom plugin. This can be accomplished by adding the `enable-proguard.gradle` file to the plugin folder and referencing it in `plugin.xml`.
 
 ## See Also
 * [Obfuscation (Wikipedia)](https://en.wikipedia.org/wiki/Obfuscation_(software))
-* [ProGuard](http://proguard.sourceforge.net/)
+* [ProGuard](https://proguard.sourceforge.net/)
 * [Shrink Your Code and Resources](https://developer.android.com/studio/build/shrink-code.html)
 * [Security and Design](https://developer.android.com/google/play/billing/billing_best_practices.html)
-* [Securing a PhoneGap/Cordova Hybrid Mobile App](http://developer.telerik.com/featured/securing-phonegapcordova-hybrid-mobile-app/)
+* [Securing a PhoneGap/Cordova Hybrid Mobile App](https://developer.telerik.com/featured/securing-phonegapcordova-hybrid-mobile-app/)

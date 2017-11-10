@@ -29,7 +29,7 @@ aws: Amazon Web Services
 The Telerik Platform is hosted on the {{ page.aws }} (AWS) and uses a range of elastic IP addresses. If you are behind a firewall, you might need to whitelist this range of IPs to establish a secure connection between your system and the Telerik Platform.
 
 ## Solution
-> **IMPORTANT**: {{ page.aws }} IP ranges are subject to change without notice. This is  further discussed [here](http://serverfault.com/questions/665191/whitelist-elastic-load-balancer-based-on-ip).
+> **IMPORTANT**: {{ page.aws }} IP ranges are subject to change without notice. This is  further discussed [here](https://serverfault.com/questions/665191/whitelist-elastic-load-balancer-based-on-ip).
 
 This information will help you or your system administrator whitelist the elastic load balancer based on the AWS IP range that Telerik Platform stays behind:
 

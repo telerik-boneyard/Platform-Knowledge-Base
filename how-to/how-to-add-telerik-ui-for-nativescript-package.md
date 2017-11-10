@@ -28,7 +28,7 @@ pitsid:
 </table>
 
 ## Description
-[{{site.tuin}}](http://www.telerik.com/nativescript-ui) lets you incorporate native UI controls in your {{site.ns}} applications. You can choose between a free limited edition or a complete edition available with specific subscription plan. To have access to the UI components, you need to add the {{site.tuin}} package to your app in {{site.ab}}.
+[{{site.tuin}}](https://www.telerik.com/nativescript-ui) lets you incorporate native UI controls in your {{site.ns}} applications. You can choose between a free limited edition or a complete edition available with specific subscription plan. To have access to the UI components, you need to add the {{site.tuin}} package to your app in {{site.ab}}.
 
 ## Solution
 ### {{site.tuin}} (Free)
@@ -61,8 +61,8 @@ If the package was placed according to this tutorial, the dependency should look
 
 <br />
 
-> **IMPORTANT:** After you include the package in your project, you must add a reference to it in your [JavaScript](http://docs.telerik.com/devtools/nativescript-ui/getting-started) or [XML](http://docs.telerik.com/devtools/nativescript-ui/Controls/NativeScript/ListView/getting-started) files.
+> **IMPORTANT:** After you include the package in your project, you must add a reference to it in your [JavaScript](https://docs.telerik.com/devtools/nativescript-ui/getting-started) or [XML](https://docs.telerik.com/devtools/nativescript-ui/Controls/NativeScript/ListView/getting-started) files.
 
 ## See Also
-* [{{site.tuin}} Documentation](http://docs.telerik.com/devtools/nativescript-ui/introduction)
-* [Managing Npm Packages for Native {{site.ab}} Apps](http://docs.telerik.com/platform/appbuilder/nativescript/working-with-frameworks/working-with-frameworks-ns)
+* [{{site.tuin}} Documentation](https://docs.telerik.com/devtools/nativescript-ui/introduction)
+* [Managing Npm Packages for Native {{site.ab}} Apps](https://docs.telerik.com/platform/appbuilder/nativescript/working-with-frameworks/working-with-frameworks-ns)

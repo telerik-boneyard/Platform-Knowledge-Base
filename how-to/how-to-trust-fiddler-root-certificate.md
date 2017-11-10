@@ -37,4 +37,4 @@ The Fiddler Root certificate is now trusted on your machine and you can capture 
 
 ## See Also
 * [How to Capture Fiddler Trace]({% slug capture-fiddler-trace %})
-* [Fiddler Documentation - Configure Windows to trust Fiddler Root Certificate](http://docs.telerik.com/fiddler/Configure-Fiddler/Tasks/TrustFiddlerRootCert)
+* [Fiddler Documentation - Configure Windows to trust Fiddler Root Certificate](https://docs.telerik.com/fiddler/Configure-Fiddler/Tasks/TrustFiddlerRootCert)

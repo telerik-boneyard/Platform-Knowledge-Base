@@ -29,16 +29,16 @@ Developers working on the same project in {{site.tp}} cannot see each others cha
 ## Solution
 In {{site.tp}} when a new app is created, it automatically becomes visible to all team members of the account. The app, however, is not configured for collaboration by default and account members cannot contribute or see each others changes in it. Instead a local repository is created for every account member who opens the app. All version control operations are performed within the local repository and are therefore not available to the other team members working on the app.
 
-To collaborate with other users in {{site.tp}}, account members need to manually configure a remote repository for their apps. They can use any third-party Git provider such as GitHub or BitBucket and follow the procedure for [configuring a {{site.tp}} app for collaboration](http://docs.telerik.com/platform/appbuilder/development-tools/version-control/collaborating/configure-for-collaboration). In order for multiple users to collaborate on the app, they have to be [invited as collaborators](http://docs.telerik.com/platform/appbuilder/development-tools/version-control/third-party-vc/configuring-third-party-vc/invite-collaborators) in the remote repository. Then each team member can push changes from {{site.tp}} to the remote repository and allow the other team members to pull them in their local repositories inside {{site.tp}}. This way the team can always work on the latest version of the app and the team members can see the version history of the app.
+To collaborate with other users in {{site.tp}}, account members need to manually configure a remote repository for their apps. They can use any third-party Git provider such as GitHub or BitBucket and follow the procedure for [configuring a {{site.tp}} app for collaboration](https://docs.telerik.com/platform/appbuilder/development-tools/version-control/collaborating/configure-for-collaboration). In order for multiple users to collaborate on the app, they have to be [invited as collaborators](https://docs.telerik.com/platform/appbuilder/development-tools/version-control/third-party-vc/configuring-third-party-vc/invite-collaborators) in the remote repository. Then each team member can push changes from {{site.tp}} to the remote repository and allow the other team members to pull them in their local repositories inside {{site.tp}}. This way the team can always work on the latest version of the app and the team members can see the version history of the app.
 
 ## Notes
 {{site.tp}} users can use the quick connect option to connect apps to any Git provider or the advanced connect option to connect to a GitHub repository:
 
-* [Connect to Any Git Repository (Quick Connect)](http://docs.telerik.com/platform/appbuilder/development-tools/version-control/third-party-vc/configuring-third-party-vc/connect-any-provider)
-* [Connect to a GitHub Repository (Advanced Connect)](http://docs.telerik.com/platform/appbuilder/development-tools/version-control/third-party-vc/configuring-third-party-vc/github-integration)
-* [Invite Collaborators using Advanced Connect](http://docs.telerik.com/platform/appbuilder/development-tools/version-control/third-party-vc/configuring-third-party-vc/invite-collaborators)
+* [Connect to Any Git Repository (Quick Connect)](https://docs.telerik.com/platform/appbuilder/development-tools/version-control/third-party-vc/configuring-third-party-vc/connect-any-provider)
+* [Connect to a GitHub Repository (Advanced Connect)](https://docs.telerik.com/platform/appbuilder/development-tools/version-control/third-party-vc/configuring-third-party-vc/github-integration)
+* [Invite Collaborators using Advanced Connect](https://docs.telerik.com/platform/appbuilder/development-tools/version-control/third-party-vc/configuring-third-party-vc/invite-collaborators)
 
 ## See Also
-* [Version Control and Collaboration](http://docs.telerik.com/platform/appbuilder/development-tools/version-control/overview)
-* [Open an Existing App for Collaboration](http://docs.telerik.com/platform/appbuilder/development-tools/version-control/collaborating/open-existing-project)
-* [Collaborate Across the Offline and Cloud Tools](http://docs.telerik.com/platform/appbuilder/development-tools/version-control/collaborating/develop-across-clients)
+* [Version Control and Collaboration](https://docs.telerik.com/platform/appbuilder/development-tools/version-control/overview)
+* [Open an Existing App for Collaboration](https://docs.telerik.com/platform/appbuilder/development-tools/version-control/collaborating/open-existing-project)
+* [Collaborate Across the Offline and Cloud Tools](https://docs.telerik.com/platform/appbuilder/development-tools/version-control/collaborating/develop-across-clients)

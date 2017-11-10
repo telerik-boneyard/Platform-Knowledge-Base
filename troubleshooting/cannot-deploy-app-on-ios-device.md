@@ -61,4 +61,4 @@ To address this problem, you should rule out the possible causes one by one. You
 If the issue is not resolved on your side by following the steps above, you can try deploying a new blank app using the same provisioning profile, on the same device. This will show if the issue is with the provisioning profile or with your app and will help you focus your attention on the correct source of the issue. If the issue is with the provisioning profile, you can try creating a new certificate and profile for your app, keeping in mind the points listed above.
 
 ## See Also
-* [Code Signing of iOS Apps](http://docs.telerik.com/platform/appbuilder/cordova/code-signing-your-app/configuring-code-signing-for-ios-apps/configuring-code-signing-for-ios-apps)
+* [Code Signing of iOS Apps](https://docs.telerik.com/platform/appbuilder/cordova/code-signing-your-app/configuring-code-signing-for-ios-apps/configuring-code-signing-for-ios-apps)

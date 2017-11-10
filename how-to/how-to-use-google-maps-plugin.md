@@ -36,7 +36,7 @@ The [Google Maps plugin](https://github.com/mapsplugin/cordova-plugin-googlemaps
 ## Solution
 Follow the steps below to add the [Google Maps plugin](https://github.com/mapsplugin/cordova-plugin-googlemaps) to your app.
 
-1. Import the latest version of the plugin, following the instructions in [the documentation](http://docs.telerik.com/platform/appbuilder/cordova/using-plugins/using-custom-plugins/add-custom-plugins).
+1. Import the latest version of the plugin, following the instructions in [the documentation](https://docs.telerik.com/platform/appbuilder/cordova/using-plugins/using-custom-plugins/add-custom-plugins).
 1.  Update the Cordova version of your project to 5.2.0.
 	The APIs needed for the iOS version of the plugin are available only in the Cordova 5.2.0 version. If you need to keep using an older Cordova version, you can download an older plugin version:
 	* Cordova 4.0 &#8594; [Google Maps 1.3.4](https://github.com/mapsplugin/cordova-plugin-googlemaps/tree/1.3.4)

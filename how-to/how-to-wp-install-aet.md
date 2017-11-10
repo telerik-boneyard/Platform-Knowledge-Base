@@ -49,4 +49,4 @@ Once the Telelrik AD workplace is added, continue with installing your {{site.ab
 The {{site.taet}} is renewed each year. Make sure that you have installed a valid *.aetx* file on your {{site.wp8}} test devices.
 
 ## See Also
-* [MSDN - What is a workplace account](http://www.windowsphone.com/en-us/how-to/wp8/accounts-and-billing/what-is-a-workplace-account)
+* [MSDN - What is a workplace account](https://www.windowsphone.com/en-us/how-to/wp8/accounts-and-billing/what-is-a-workplace-account)

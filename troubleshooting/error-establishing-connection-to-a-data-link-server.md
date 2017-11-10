@@ -41,6 +41,6 @@ Ensure that the following conditions are met:
 * You are entering the address in the correct format. Example: http://myserver.example.com:9090 or http://203.0.113.33:9090.
 
 ## See Also
-* [Getting Started with Relational Data Connectors](http://docs.telerik.com/platform/backend-services/javascript/data-connectors/sql/data-connectors-getting-started)
+* [Getting Started with Relational Data Connectors](https://docs.telerik.com/platform/backend-services/javascript/data-connectors/sql/data-connectors-getting-started)
 * [Cannot connect to the database server from the {{site.dls}}]({% slug cannot-connect-to-database-server-from-a-data-link-server %})
 * [Error Accessing the {{site.dls}}]({% slug error-accessing-data-link-server %})
